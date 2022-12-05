@@ -83,6 +83,15 @@ function Welcome() {
   );
 }
 
+function GoogleCalendarAPI() {
+  return (
+    <>
+      <h3 className='title'>Event Schedule</h3>
+      <iframe src="https://calendar.google.com/calendar/embed?src=jayhshin33%40gmail.com&ctz=America%2FNew_York" width="800" height="600" frameBorder="0" scrolling="no"></iframe>
+    </>
+  );
+}
+
 function Main() {
   return(
     <>
@@ -90,6 +99,8 @@ function Main() {
       <Welcome />
       <Mission />
       <EBoard />
+      <GoogleCalendarAPI />
+      <Gallery />
     </>
   );
 }
@@ -151,13 +162,37 @@ function EBoard() {
     );
   }
 
-  
-
   return (
     <>
       <h3 className='title'>E-Board</h3>
       <div className="eboards">
         {x}
+      </div>
+    </>
+  );
+}
+
+function Gallery() {
+  return (
+    <>
+      <div className='gallery'>
+      <h3 className='title'>Gallery</h3>
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block" src={jay} alt="First slide"/>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block" src={logo} alt="Second slide"/>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          </a>
+        </div>
       </div>
     </>
   );

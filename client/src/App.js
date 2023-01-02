@@ -92,12 +92,64 @@ function GoogleCalendarAPI() {
   );
 }
 
+function WhyJoin() {
+  var list = [
+    'hi',
+    'hello',
+    'hellooo'
+  ];
+
+  var x = [];
+
+  for (var i = 0; i < list.length; i++) {
+    x.push(<li>{list[i]}</li>);
+  }
+
+  return (
+    <>
+      <h3 className='title'>Why You Should Join FEAC</h3>
+      <div className='whyList'>
+        <ul>
+          {x}
+        </ul>
+      </div>
+    </>
+  );
+}
+
+function Icons() {
+  return (
+    <>
+      <h3 className='title'>Helpful Features</h3>
+      <div className='icons'>
+        <div>
+          <img src={logo}  className='logo'></img>
+          <h3>hi</h3>
+          <p>hisadfadsfadsfadsffadsf</p>
+        </div>
+        <div>
+          <img src={logo}  className='logo'></img>
+          <h3>hi</h3>
+          <p>hisadfadsfadsfadsffadsf</p>
+        </div>
+        <div>
+          <img src={logo}  className='logo'></img>
+          <h3>hi</h3>
+          <p>hisadfadsfadsfadsffadsf</p>
+        </div>
+      </div>
+    </>
+  );
+}
+
 function Main() {
   return(
     <>
       <NavBar />
       <Welcome />
       <Mission />
+      <WhyJoin />
+      <Icons />
       <EBoard />
       <GoogleCalendarAPI />
       <Gallery />

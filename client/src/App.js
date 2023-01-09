@@ -8,6 +8,10 @@ import discord from './discord.png';
 import email from './email.png';
 import insta from './instagram.png';
 import snapchat from './snapchat.png';
+import friend from './friend.png';
+import calendar from './calendar.png';
+import language from './language.png';
+import user from './user.png';
 import jenny from './jenny.png';
 import jay from './jay.png';
 
@@ -23,13 +27,10 @@ function NavBar() {
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav" className="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#">Our Mission</a>
+            <a class="nav-link" href="#">About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">E-Board</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Membership</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Event Calendar</a>
@@ -38,13 +39,10 @@ function NavBar() {
             <a class="nav-link" href="#">Gallery</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Support Wanted</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Annoucements</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="#">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sponsor</a>
           </li>
         </ul>
       </div>
@@ -120,27 +118,61 @@ function WhyJoin() {
 function Icons() {
   return (
     <>
-      <h3 className='title'>Helpful Features</h3>
       <div className='icons'>
         <div>
-          <img src={logo}  className='logo'></img>
-          <h3>hi</h3>
-          <p>hisadfadsfadsfadsffadsf</p>
+          <img src={friend}  className='logo'></img>
+          <h3>Make Friends</h3>
+          <p>Experience the cultural exchange from the Ohio State community!</p>
         </div>
         <div>
-          <img src={logo}  className='logo'></img>
-          <h3>hi</h3>
-          <p>hisadfadsfadsfadsffadsf</p>
+          <img src={language}  className='logo'></img>
+          <h3>Learn Languages</h3>
+          <p>Get one-on-one tutorial sessions for free!</p>
         </div>
         <div>
-          <img src={logo}  className='logo'></img>
-          <h3>hi</h3>
-          <p>hisadfadsfadsfadsffadsf</p>
+          <img src={calendar}  className='logo'></img>
+          <h3>Events Calendar</h3>
+          <p>Look up our fun upcoming events and mark your calendars! </p>
         </div>
       </div>
     </>
   );
 }
+
+function Contact() {
+  return (
+    <div className='contact'>
+      <h3 className='title'>Contact</h3>
+      <p className='contact-des'>Have a question or need further information? We would love to hear from you!</p>
+      <div className='gang'>
+        <div className='contact2'>
+          <img src={logo}/>
+        </div>
+        <div className='contact3'>
+          <p><img src={user}/>Jenny Lim</p>
+          <p><img src={email}/>lim.500@osu.edu</p>
+        </div>
+      </div>
+      
+    </div>
+  );
+}
+
+function Sponsor() {
+  return (
+    <div className='sponsor'>
+      <h3 className='title'>Sponsor</h3>
+      <p>
+        Thanks for your interest in supporting FEAC. We rely on corporate and individual donations to pay for...
+      </p>
+      <ul>
+        <li>hi</li>
+        <li>hello</li>
+      </ul>
+    </div>
+  );
+}
+
 
 function Main() {
   return(
@@ -152,7 +184,8 @@ function Main() {
       <Icons />
       <EBoard />
       <GoogleCalendarAPI />
-      <Gallery />
+      <Contact />
+      <Sponsor />
     </>
   );
 }

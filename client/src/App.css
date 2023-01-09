@@ -201,10 +201,61 @@ iframe {
 }
 
 .icons {
+  margin-top: 50px;
   text-align: center;
 }
 
 .icons div {
   display: inline-block;
+  width: 250px;
+  margin: 50px;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact2 img{
   width: 300px;
+  height: 100px;
+}
+
+.contact2 {
+  border-right: 0.5px solid black;
+  height: 100px;
+}
+
+.contact3 {
+  width: 300px;
+}
+
+.contact3 p {
+  text-align: left;
+  margin-left: 80px;
+  margin-right: auto;
+}
+
+.contact3 img {
+  width: 40px;
+  padding: 10px;
+}
+
+.gang {
+  margin-top: 50px;
+  display: flex;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sponsor {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.sponsor p, .sponsor ul {
+  text-align: left;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }

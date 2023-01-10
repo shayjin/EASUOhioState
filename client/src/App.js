@@ -12,6 +12,9 @@ import friend from './friend.png';
 import calendar from './calendar.png';
 import language from './language.png';
 import user from './user.png';
+import sample from './sample.jpeg';
+import business from './business.png';
+import individual from './individual.png';
 import jenny from './jenny.png';
 import jay from './jay.png';
 
@@ -41,6 +44,12 @@ function NavBar() {
           <li class="nav-item">
             <a class="nav-link" href="#">Sponsor</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Calendar</a>
+          </li>
         </ul>
       </div>
     </nav>
@@ -50,15 +59,29 @@ function NavBar() {
 function Welcome() {
   return (
     <>
-      <div className='poster'>
+    <div class="area" >
+            <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+    </div >
+      <div className='context'>
         <div className='header-text'>
-          <h1 className='header'> Far East Asian Club<br/>@ Ohio State</h1>
+          <h1 className='header'> Far East Asian Club @ Ohio State</h1>
           <div className='pic'>
             <img src={logo} className='sipdug'></img>
           </div>
           <p className='des'>
-            <b>Who are we?: </b>We are the largest Asian student organization, at The Ohio State University, 
-            proudly pushing the boundaries on what it means to be an Asian at Ohio State. 
+            <b>Who are we?: </b>We are one of the largest Asian student organizations at The Ohio State University, 
+            proudly promoting diverse cultural events and pushing the boundaries on what it means to be a far east Asian The Ohio State University. 
           </p>
           <div className='links'>
             <button class="btn btn-secondary">
@@ -69,6 +92,14 @@ function Welcome() {
             </button>
             <button class="btn btn-secondary">
               <img src={insta} className='lil-logo'/>Follow us on Instagram!
+            </button>
+          </div>
+          <div className='links'>
+            <button class="btn btn-secondary">
+              <img src={email} className='lil-logo'/>Find us on OSU student org!
+            </button>
+            <button class="btn btn-secondary">
+              <img src={discord} className='lil-logo'/>Check out our gallery!
             </button>
           </div>
         </div>
@@ -91,7 +122,7 @@ function Event() {
   return (
     <div className='event'>
       <h3 className='title'>Upcoming Event</h3>
-      <img src={logo} />
+      <img src={sample} />
     </div>
   );
 }
@@ -148,8 +179,8 @@ function Icons() {
 function Contact() {
   return (
     <div className='contact'>
-      <h3 className='title'>Contact</h3>
-      <p className='contact-des'>Have a question or need further information? We would love to hear from you!</p>
+      <h3 className='title'>Contact Us</h3>
+      <p className='contact-des'>Have questions or need more information? Please feel free to contact us!</p>
       <div className='gang'>
         <div className='contact2'>
           <img src={logo}/>
@@ -169,13 +200,22 @@ function Sponsor() {
     <div className='sponsor'>
       <h3 className='title'>Sponsor</h3>
       <p>
-        Thanks for your interest in supporting FEAC. We rely on corporate and individual donations to pay for...
+        Thank you so much for your interest in supporting FEAC. We rely on your donations to pay for...
       </p>
       <ul>
         <li>Organizing & hosting our monthly club events</li>
         <li>Prizes for our events</li>
         <li>Keeping this website up</li>
       </ul>
+      <div className='links'>
+            <button class="btn btn-secondary">
+              <img src={business} className='lil-logo'/>Corporate Donation
+            </button>
+            <button class="btn btn-secondary">
+              <img src={individual} className='lil-logo'/>Individual Donantion
+            </button>
+          </div>
+
     </div>
   );
 }

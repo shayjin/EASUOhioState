@@ -30,16 +30,13 @@ function NavBar() {
             <a class="nav-link" href="#">About</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="#">Events</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="#">E-Board</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Event Calendar</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Gallery</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact Us</a>
+            <a class="nav-link" href="#">Contact</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Sponsor</a>
@@ -87,6 +84,15 @@ function GoogleCalendarAPI() {
       <h3 className='title'>Event Schedule</h3>
       <iframe src="https://calendar.google.com/calendar/embed?src=jayhshin33%40gmail.com&ctz=America%2FNew_York" width="800" height="600" frameBorder="0" scrolling="no"></iframe>
     </>
+  );
+}
+
+function Event() {
+  return (
+    <div className='event'>
+      <h3 className='title'>Upcoming Event</h3>
+      <img src={logo} />
+    </div>
   );
 }
 
@@ -166,8 +172,9 @@ function Sponsor() {
         Thanks for your interest in supporting FEAC. We rely on corporate and individual donations to pay for...
       </p>
       <ul>
-        <li>hi</li>
-        <li>hello</li>
+        <li>Organizing & hosting our monthly club events</li>
+        <li>Prizes for our events</li>
+        <li>Keeping this website up</li>
       </ul>
     </div>
   );
@@ -182,8 +189,8 @@ function Main() {
       <Mission />
       <WhyJoin />
       <Icons />
+      <Event />
       <EBoard />
-      <GoogleCalendarAPI />
       <Contact />
       <Sponsor />
     </>
@@ -213,13 +220,15 @@ function EBoard() {
     bio: "hi",
     picture: jenny},
     {name: "Jay Shin",
-    position: "Communication Team",
+    position: "Vice President",
     bio: "hello",
     picture: jay},
-    {name: "Jin-Sung Kim",
-    position: "Japanese Translator",
-    bio: "hello",
-    picture: sipdug},
+    {
+      name: "James Ahn",
+      position: "Treasurer",
+      bio: "hello",
+      picture: sipdug,
+    }
   ];
 
   let x = [];

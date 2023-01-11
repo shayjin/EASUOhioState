@@ -15,46 +15,13 @@ import user from './user.png';
 import sample from './sample.jpeg';
 import business from './business.png';
 import individual from './individual.png';
+import event from './event.png';
+import gallery from './gallery.png';
 import jenny from './jenny.png';
 import jay from './jay.png';
+import { Events } from './Events';
+import { Navbar } from "./Navbar";
 
-function NavBar() {
-  return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a href="/">
-        <img src={logo}  className='logo'></img>
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav" className="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Events</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">E-Board</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Sponsor</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Gallery</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Calendar</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  );
-}
 
 function Welcome() {
   return (
@@ -72,7 +39,6 @@ function Welcome() {
                     <li></li>
                     <li></li>
             </ul>
-    </div >
       <div className='context'>
         <div className='header-text'>
           <h1 className='header'> Far East Asian Club @ Ohio State</h1>
@@ -81,30 +47,35 @@ function Welcome() {
           </div>
           <p className='des'>
             <b>Who are we?: </b>We are one of the largest Asian student organizations at The Ohio State University, 
-            proudly promoting diverse cultural events and pushing the boundaries on what it means to be a far east Asian The Ohio State University. 
+            proudly promoting diverse cultural events and pushing the boundaries on what it means to be a far east Asian at The Ohio State University. 
           </p>
           <div className='links'>
             <button class="btn btn-secondary">
-              <img src={email} className='lil-logo'/>Join our Emailing List!
+              <img src={email} className='lil-logo'/>Join our emailing list!
             </button>
             <button class="btn btn-secondary">
-              <img src={discord} className='lil-logo'/>Join our Discord Server!
+              <img src={discord} className='lil-logo'/>Join our Discord server!
             </button>
             <button class="btn btn-secondary">
               <img src={insta} className='lil-logo'/>Follow us on Instagram!
             </button>
           </div>
           <div className='links'>
-            <button class="btn btn-secondary">
-              <img src={email} className='lil-logo'/>Find us on OSU student org!
-            </button>
-            <button class="btn btn-secondary">
-              <img src={discord} className='lil-logo'/>Check out our gallery!
-            </button>
+            <a href="/Events">
+              <button class="btn btn-secondary">
+                  <img src={event} className='lil-logo'/>Check out our past events!
+              </button>
+            </a>
+            <a href="/Gallery">
+              <button class="btn btn-secondary">
+                <img src={gallery} className='lil-logo'/>Check out our gallery!
+              </button>
+            </a>
+
           </div>
         </div>
       </div>
-
+      </div >
     </>
   );
 }
@@ -120,10 +91,19 @@ function GoogleCalendarAPI() {
 
 function Event() {
   return (
-    <div className='event'>
-      <h3 className='title'>Upcoming Event</h3>
-      <img src={sample} />
-    </div>
+    <>
+      <div className='event'>
+        <h3 className='title'>Upcoming Event</h3>
+        <img src={sample} />
+
+      </div>
+      <div className='links'>
+        <button class="btn btn-secondary">
+          <img src={event} className='lil-logo'/>View past events
+        </button>
+      </div>
+    </>
+
   );
 }
 
@@ -176,6 +156,7 @@ function Icons() {
   );
 }
 
+
 function Contact() {
   return (
     <div className='contact'>
@@ -222,10 +203,11 @@ function Sponsor() {
 
 
 function Main() {
-  return(
+  return (
     <>
-      <NavBar />
+      <Navbar />
       <Welcome />
+      <h3 className='title'>About Us</h3>
       <Mission />
       <WhyJoin />
       <Icons />
@@ -338,7 +320,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="*" element={<p>Path not resolved</p>} />
-        <Route path="/tweet" element={<Tweet/>}></Route>
+        <Route path="/Events" element={<Events/>}></Route>
       </Routes> 
     </BrowserRouter>
   );

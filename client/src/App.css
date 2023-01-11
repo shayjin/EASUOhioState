@@ -38,6 +38,10 @@ p {
   height: 50px;
 }
 
+.teul {
+  border: 0.2px solid rgb(207, 198, 198);
+}
+
 .header {
   text-align: center;
   font-family: 'Acme', sans-serif;
@@ -122,8 +126,8 @@ p {
 
 
 #mission-card {
-  margin-top:150px;
-  border-top: 3px solid rgb(129, 3, 183);
+  margin-top:0px;
+  border-top: 3px solid rgb(74, 63, 220);
   width: 1000px;
   margin-left: auto;
   margin-right: auto;
@@ -318,8 +322,25 @@ body{
     background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
     width: 100%;
     height:100vh;
-    
    
+}
+
+@media only screen and (max-width: 755px) {
+  .area {
+    height: 110vh;
+  }
+}
+
+@media only screen and (max-width: 665px) {
+  .area {
+    height: 120vh;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .area {
+    height: 130vh;
+  }
 }
 
 .circles{
@@ -435,4 +456,132 @@ body{
         border-radius: 50%;
     }
 
+}
+
+
+.proj ul{
+  display: block;
+  text-align: center;
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 0;
+}
+
+.proj img {
+  width: 550px;
+  height: 350px;
+}
+
+.proj a {
+  text-decoration: none;
+}
+
+.proj .link {
+  height:auto;
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+}
+
+.proj li {
+  font-size: 15px;
+  display: inline-block;
+  padding: 10px;
+}
+
+.projHeader div {
+  width: 100%;
+  display: inline-block;
+  
+}
+
+.projDesDes {
+  margin-top:-15px;
+  font-size: 110%;
+  width: 550px;
+  float: left;
+  text-align: left;
+}
+
+.projDes a {
+  border-radius: 10000rem;
+  padding: 9px 16px;
+  border: 2.5px solid blue;
+  font-size: 1rem;
+  margin-left: -5px;
+  margin-bottom: 100px;
+  float: left;
+}
+
+.tools  {
+  float: left;
+  text-align: center;
+  display: inline-block;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top:6px;
+  padding-bottom:6px;
+  margin-top:0px;
+  margin-bottom: 3px;
+  background-color: #babacf;
+  border-radius: 3px;
+  color:rgb(0, 0, 0);
+  
+}
+
+
+
+.img__description {
+  width: 290px;
+  height: 290px;
+
+  position: absolute;
+  margin-left:5px;
+  margin-top: 5px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(247, 247, 247, 0.877);
+  color: black;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+  text-align: left;
+  font-size: 8.5px;
+}
+
+.img__wrap:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.img__description img {
+  width: 15px;
+  height: 15px;
+}
+
+.img__description .link {
+  width: 30px;
+  height: 30px;
+}
+
+.roles {
+  text-align: center;
+}
+
+
+.roles p {
+  font-size: 13px;
+}
+
+h2 {
+  text-align: left;
+  font-family : var(--title-font);
+  margin-top:30px;
+  margin-left: 0px;
+  font-size: 1.5rem;
+  font-weight: 600;
 }

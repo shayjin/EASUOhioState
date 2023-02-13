@@ -43,10 +43,10 @@ function Welcome() {
         <div className='header-text'>
           <h1 className='header'> Far East Asian Club @ Ohio State</h1>
           <div className='pic'>
-            <img src={logo} className='sipdug'></img>
+            <img src={require('./logo-white.png')} className='sipdug'></img>
           </div>
           <p className='des'>
-            <b>Who are we?: </b>We are one of the largest Asian student organizations at The Ohio State University, 
+            <h5 class="whoAreWe">Who are we?: </h5> We are one of the largest Asian student organizations at The Ohio State University, 
             proudly promoting diverse cultural events and pushing the boundaries on what it means to be a far east Asian at The Ohio State University. 
           </p>
           <div className='links'>
@@ -94,7 +94,7 @@ function Event() {
     <>
       <div className='event'>
         <h3 className='title'>Upcoming Event</h3>
-        <img src={sample} />
+        <img src={require('./1st-gbm.png')} />
 
       </div>
       <div className='links'>
@@ -109,20 +109,29 @@ function Event() {
 
 function WhyJoin() {
   var list = [
-    'hi',
-    'hello',
-    'hellooo'
+    {
+      type: "Cultural Awareness",
+      text: "Students have the opportunity to explore diverse cultural heritage of Far East Asia and interact with like-minded individuals to broaden their understanding of different cultures."
+    },
+    {
+      type: "Fun & Engaging Events",
+      text: "FEASU hosts a variety of engaging events that allow students to learn about Far East Asian culture, socialize, and have fun!"
+    },
+    {
+      type: "Language and Cultural Exchange",
+      text: "FEASU offers studennts the opportunity to participate in language and cultural exchange programs, where they can practice their language skills and learn about the traditions of Far East Asian countries."
+    }
   ];
 
   var x = [];
 
   for (var i = 0; i < list.length; i++) {
-    x.push(<li>{list[i]}</li>);
+    x.push(<li><b>{list[i].type}:</b> {list[i].text}</li>);
   }
 
   return (
     <>
-      <h3 className='title'>Why You Should Join FEAC</h3>
+      <h3 className='title'>Why You Should Join FEASU</h3>
       <div className='whyList'>
         <ul>
           {x}
@@ -164,11 +173,11 @@ function Contact() {
       <p className='contact-des'>Have questions or need more information? Please feel free to contact us!</p>
       <div className='gang'>
         <div className='contact2'>
-          <img src={logo}/>
+          <img src={require('./logo.png')}/>
         </div>
         <div className='contact3'>
           <p><img src={user}/>Jenny Lim</p>
-          <p><img src={email}/>lim.500@osu.edu</p>
+          <p><img src={email}/>lim.1370@osu.edu</p>
         </div>
       </div>
       
@@ -207,7 +216,7 @@ function Main() {
     <>
       <Navbar />
       <Welcome />
-      <h3 className='title'>About Us</h3>
+      <h3 className='title'>About FEASU</h3>
       <Mission />
       <WhyJoin />
       <Icons />
@@ -220,14 +229,15 @@ function Main() {
 }
 
 function Mission() {
+  var missionStatement = "The mission of Far East Asian Student Union (FEASU) at The Ohio State University is to promote and celebrate the diverse cultural heritage of Far East Asia within the university community. We strive to create a safe and inclusive environment for students to explore, understand, and share their unique cultural experiences. Our organization is dedicated to pushing the boundaries of what it means to be a Far East Asian student at The Ohio State University through innovative and engaging events and activities. We are committed to fostering unity, cultural awareness, and leadership within the university and beyond.";
+  
   return (
     <>
      <div class="card" id="mission-card">
         <div class="card-body">
           <h5 class="card-title">Our Mission</h5>
-          <p class="card-text">Our mission is to blah blah blah blah, blah blah blah. Blah blah blah blah blah, blah blah blah.
-          Our mission is to blah blah blah blah, blah blah blah. Blah blah blah blah blah, blah blah blah. 
-          Our mission is to blah blah blah blah, blah blah blah. Blah blah blah blah blah, blah blah blah.
+          <p class="card-text">
+            {missionStatement}
           </p>
         </div>
       </div>

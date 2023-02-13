@@ -6,9 +6,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
 
 p {
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Work Sans', sans-serif;
 }
 .poster {
     width: 100%;
@@ -31,11 +33,18 @@ p {
 .des {
   margin-top:10px;
   margin-bottom: 30px;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+}
+
+.whoAreWe {
+  font-weight: bolder;
 }
 
 .logo {
   height: 50px;
+  margin-left: 12px;
+  margin-right: 12px;
 }
 
 .teul {
@@ -44,7 +53,7 @@ p {
 
 .header {
   text-align: center;
-  font-family: 'Acme', sans-serif;
+  font-family: 'Rowdies', cursive;
   margin-top:-10px;
   display: block;
   margin-bottom: 15px;
@@ -173,7 +182,7 @@ h3 {
 }
 
 .whyList {
-  width: 600px;
+  width: 700px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -238,13 +247,15 @@ iframe {
 }
 
 .contact2 img{
-  width: 300px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
+  margin-top: -50px;
 }
 
 .contact2 {
   border-right: 0.5px solid black;
   height: 100px;
+  width: 300px;
 }
 
 .contact3 {

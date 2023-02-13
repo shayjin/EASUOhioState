@@ -5,14 +5,13 @@ import pic from './logo.png';
 
 export const Events = () => {
     var prop = [
-        {title: "Future Club Event", type: "EVENT", 
+        {title: "이경민바보", type: "EVENT", 
         des: ["Future event test test test."], 
         skills: ["js"], 
         },
-        {title: "Far East Asian Club Launched", type: "TIMELINE", 
-        des: ["Far East Asian Club at The Ohio State University has been approved! ",
-        "This club is led by Jenny Lim under the supervision of Dr. Blah Blah. ",
-        "Our goal is to blah blah..."], 
+        {title: "Far East Asian Student Union Launched", type: "01/18/2023", 
+        des: ["FEASU, a new organization at Ohio State, celebrates Far East Asian culture and provides a platform for students to learn, connect, and grow. ",
+        "Join us and be a part of something special."], 
         skills: ["js"], 
         }
       ];

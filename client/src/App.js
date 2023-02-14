@@ -20,6 +20,7 @@ import gallery from './gallery.png';
 import jenny from './jenny.png';
 import jay from './jay.png';
 import { Events } from './Events';
+import { Gallery } from './Gallery';
 import { Navbar } from "./Navbar";
 
 
@@ -41,7 +42,7 @@ function Welcome() {
             </ul>
       <div className='context'>
         <div className='header-text'>
-          <h1 className='header'> Far East Asian Club @ Ohio State</h1>
+          <h1 className='header'> Far East Asian Student Union @ Ohio State</h1>
           <div className='pic'>
             <img src={require('./logo-white.png')} className='sipdug'></img>
           </div>
@@ -56,9 +57,11 @@ function Welcome() {
             <button class="btn btn-secondary">
               <img src={discord} className='lil-logo'/>Join our Discord server!
             </button>
-            <button class="btn btn-secondary">
-              <img src={insta} className='lil-logo'/>Follow us on Instagram!
-            </button>
+            <a href="https://www.instagram.com/feasu_osu/" target="_blank">
+              <button class="btn btn-secondary">
+                <img src={insta} className='lil-logo'/>Follow us on Instagram!
+              </button>
+            </a>
           </div>
           <div className='links'>
             <a href="/Events">
@@ -98,9 +101,12 @@ function Event() {
 
       </div>
       <div className='links'>
-        <button class="btn btn-secondary">
-          <img src={event} className='lil-logo'/>View past events
-        </button>
+        <a href="/Events">
+          <button class="btn btn-secondary">
+            <img src={event} className='lil-logo'/>
+            View past events
+          </button>
+        </a>
       </div>
     </>
 
@@ -190,7 +196,7 @@ function Sponsor() {
     <div className='sponsor'>
       <h3 className='title'>Sponsor</h3>
       <p>
-        Thank you so much for your interest in supporting FEAC. We rely on your donations to pay for...
+        Thank you so much for your interest in supporting FEASU. We rely on your donations to pay for...
       </p>
       <ul>
         <li>Organizing & hosting our monthly club events</li>
@@ -259,12 +265,35 @@ function EBoard() {
       name: "James Ahn",
       position: "Treasurer",
       bio: "hello",
+      picture: require('./윤기.png')
+    },
+    {
+      name: "Ella Lee",
+      position: "Media Chair",
+      bio: "hello!",
       picture: sipdug,
+    },
+    {
+      name: "Jin-Sung Kim",
+      position: "Japanese Translator",
+      bio: "Gang!",
+      picture: sipdug,
+    },
+    {
+      name: "Jiyun Lee",
+      position: "Strategic Management Leader",
+      bio: "hello!",
+      picture: sipdug,
+    },
+    {
+      name: "Minwoong Jeong",
+      position: "Event Chair",
+      bio: "MinwoongYT!",
+      picture: require('./웅민.png')
     }
   ];
 
   let x = [];
-
 
   for (var i = 0; i < eboards.length; i++) {
     var eboard = eboards[i];
@@ -298,32 +327,6 @@ function EBoard() {
   );
 }
 
-function Gallery() {
-  return (
-    <>
-      <div className='gallery'>
-      <h3 className='title'>Gallery</h3>
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img class="d-block" src={jay} alt="First slide"/>
-            </div>
-            <div class="carousel-item">
-              <img class="d-block" src={logo} alt="Second slide"/>
-            </div>
-          </div>
-          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          </a>
-        </div>
-      </div>
-    </>
-  );
-}
-
 function App() {
   return (
     <BrowserRouter>
@@ -331,6 +334,7 @@ function App() {
         <Route path="/" element={<Main />} />
         <Route path="*" element={<p>Path not resolved</p>} />
         <Route path="/Events" element={<Events/>}></Route>
+        <Route path="/Gallery" element={<Gallery/>}></Route>
       </Routes> 
     </BrowserRouter>
   );

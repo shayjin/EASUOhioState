@@ -52,6 +52,7 @@ p {
 }
 
 .header {
+  color: rgb(240, 231, 238) !important;
   text-align: center;
   font-family: 'Rowdies', cursive;
   margin-top:-10px;
@@ -172,7 +173,7 @@ margin:30px;
 
 .title{
   text-align: center;
-  margin-top: 130px;
+  margin-top: 80px;
   margin-bottom: 30px;
   font-family: 'Acme', sans-serif;
 }
@@ -202,8 +203,13 @@ iframe {
 }
 
 
+.carousel-control-prev-icon, .carousel-control-next-icon {
+background-color: #4e54c8;
+}
+
+
 .gallery {
-  background-color: #B39DDB;
+  margin-top:-60px;
   height:100vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -213,8 +219,8 @@ iframe {
 }
 
 .d-block {
-  width: 600px;
-  height: 600px;
+  width: 500px;
+  height: 500px;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -232,6 +238,7 @@ iframe {
 
 .icons {
   margin-top: 50px;
+  margin-bottom: -40px;
   text-align: center;
 }
 
@@ -381,6 +388,7 @@ body{
     height: 80px;
     animation-delay: 0s;
 }
+
 
 
 .circles li:nth-child(2){

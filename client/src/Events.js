@@ -1,33 +1,31 @@
 import React from 'react';
 import { Navbar } from "./Navbar";
 import {Link, Route, Routes, BrowserRouter } from 'react-router-dom';
-import pic from './logo.png';
 
 export const Events = () => {
     var prop = [
-        {title: "이경민바보", type: "EVENT", 
-        des: ["Future event test test test."], 
-        skills: ["js"], 
+        {title: "1st General Body Meeting", type: "02/22/2023", 
+        des: ["Join us for our first General Body Meeting of the semester on 2/22! ",
+        "We have prepared E-Board introduction, icebreakers, and raffle drawing for a chance to win exciting prizes. ",
+        "Be a part of the action!"]
         },
-        {title: "Far East Asian Student Union Launched", type: "01/18/2023", 
+        {title: "Free Merch Event", type: "01/18/2023", 
+        des: ["Win big at our Free Merch Event on Feb 22nd! Come join us and receive prizes from our first event. ",
+        "Don't miss out on this exciting opportunity!"]
+        },
+        {title: "Far East Asian Student", type: "01/10/2023", 
         des: ["FEASU, a new organization at Ohio State, celebrates Far East Asian culture and provides a platform for students to learn, connect, and grow. ",
-        "Join us and be a part of something special."], 
-        skills: ["js"], 
+        "Join us and be a part of something special. "]
         }
       ];
 
     const list = [];
 
-    const pics = ['jay'];
+    const pics = ['1st-gbm', 'merchevent', 'logo'];
     for (var i = 0; i < prop.length; i++) {
-      var skills = [];
       let project = prop[i];
 
-      var x = pics[i];
-  
-      for (var j = 0; j < project.skills.length;j++){
-        skills.push('' + project['skills'][j] + '.png')
-      }
+      var pic = require('./' + pics[i] + '.png');
   
       list.push(
         <li key={i}>

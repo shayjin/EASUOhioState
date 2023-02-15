@@ -1,5 +1,8 @@
 import React from 'react';
 import logo from './logo.png';
+import { Event } from './App';
+import {Route, Routes, BrowserRouter } from 'react-router-dom';
+import { Link } from 'react-scroll';
 
 export const Navbar = () => {
     return (
@@ -12,12 +15,9 @@ export const Navbar = () => {
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav" className="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">E-Board</a>
-            </li>
+              <Link class="nav-link" to="icons">
+                <a class="nav-link" href="#">E-Board</a>
+              </Link>
             <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
             </li>

@@ -1,6 +1,6 @@
 
 import './App.css';
-import {Route, Routes, BrowserRouter} from 'react-router-dom';
+import {Route, Link, Routes, BrowserRouter} from 'react-router-dom';
 import { Tweet } from './Tweet';
 import logo from './logo.png';
 import sipdug from './씹덕.png';
@@ -22,6 +22,7 @@ import jay from './jay.png';
 import { Events } from './Events';
 import { Gallery } from './Gallery';
 import { Navbar } from "./Navbar";
+import { useRef } from "react";
 
 
 function Welcome() {
@@ -44,7 +45,7 @@ function Welcome() {
         <div className='header-text'>
           <h1 className='header'> Far East Asian Student Union @ Ohio State</h1>
           <div className='pic'>
-            <img src={require('./logo-white.png')} className='sipdug'></img>
+            <img src={require('./logo.png')} className='sipdug'></img>
           </div>
           <p className='des'>
             <h5 class="whoAreWe">Who are we?: </h5> We are one of the largest Asian student organizations at The Ohio State University, 
@@ -62,14 +63,15 @@ function Welcome() {
                 <img src={insta} className='lil-logo'/>Follow us on Instagram!
               </button>
             </a>
+            
           </div>
           <div className='links'>
-            <a href="/Events">
+            <a href="/FEASU/Events">
               <button class="btn btn-secondary">
                   <img src={event} className='lil-logo'/>Check out our past events!
               </button>
             </a>
-            <a href="/Gallery">
+            <a href="/FEASU/Gallery">
               <button class="btn btn-secondary">
                 <img src={gallery} className='lil-logo'/>Check out our gallery!
               </button>
@@ -93,6 +95,7 @@ function GoogleCalendarAPI() {
 }
 
 function Event() {
+  var x = useRef(null);
   return (
     <>
       <div className='event'>
@@ -100,7 +103,7 @@ function Event() {
         <img src={require('./1st-gbm.png')} />
 
       </div>
-      <div className='links'>
+      <div className='links' ref={x}>
         <a href="/Events">
           <button class="btn btn-secondary">
             <img src={event} className='lil-logo'/>
@@ -256,47 +259,34 @@ function EBoard() {
     {name: "Jenny Lim",
     position: "President",
     bio: "hi",
-    picture: jenny},
+    picture: jenny,
+    insta: "hyacinth._.ia"},
     {name: "Jay Shin",
     position: "Vice President",
     bio: "hello",
-    picture: jay},
+    picture: jay,
+    insta: "shayjin33"},
     {
       name: "James Ahn",
       position: "Treasurer",
       bio: "hello",
-      picture: require('./윤기.png')
-    },
-    {
-      name: "Ella Lee",
-      position: "Media Chair",
-      bio: "hello!",
-      picture: sipdug,
-    },
-    {
-      name: "Jin-Sung Kim",
-      position: "Japanese Translator",
-      bio: "Gang!",
-      picture: sipdug,
+      picture: require('./윤기.png'),
+      insta: "james.a_135"
     },
     {
       name: "Jiyun Lee",
-      position: "Strategic Management Leader",
+      position: "Strategic Management",
       bio: "hello!",
-      picture: sipdug,
+      picture: require('./지윤.png'),
+      insta: "jiyunl1"
     },
-    {
-      name: "Minwoong Jeong",
-      position: "Event Chair",
-      bio: "MinwoongYT!",
-      picture: require('./웅민.png')
-    }
   ];
 
   let x = [];
 
   for (var i = 0; i < eboards.length; i++) {
     var eboard = eboards[i];
+    var instaLink = "https://www.instagram.com/" + eboard.insta;
     x.push(
       <div class="card" id="eboard">
       <img class="card-img-top" src={eboard.picture} alt="Card image cap"/>
@@ -305,7 +295,7 @@ function EBoard() {
         <p class="card-text">{eboard.position}</p>
         <div className="sms">
           <div>
-            <a href="#"><img src={insta}></img></a>
+            <a href={instaLink} target="_blank"><img src={insta}></img></a>
           </div>
           <div>
             <a href="#"><img src={email}></img></a>
@@ -331,10 +321,11 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
+        <Route path="/FEASU" element={<Main />} />
         <Route path="/" element={<Main />} />
         <Route path="*" element={<p>Path not resolved</p>} />
-        <Route path="/Events" element={<Events/>}></Route>
-        <Route path="/Gallery" element={<Gallery/>}></Route>
+        <Route path="/FEASU/Events" element={<Events/>}></Route>
+        <Route path="/FEASU/Gallery" element={<Gallery/>}></Route>
       </Routes> 
     </BrowserRouter>
   );

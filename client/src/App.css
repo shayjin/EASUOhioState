@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400&display=swap');
@@ -34,7 +33,6 @@ p {
   margin-top:10px;
   margin-bottom: 30px;
   font-family: 'Work Sans', sans-serif;
-  font-weight: bold;
 }
 
 .whoAreWe {
@@ -52,12 +50,12 @@ p {
 }
 
 .header {
-  color: rgb(240, 231, 238) !important;
   text-align: center;
   font-family: 'Rowdies', cursive;
   margin-top:-10px;
   display: block;
   margin-bottom: 15px;
+  color:rgb(65, 64, 73) !important;
 }
 
 .header-text {
@@ -73,7 +71,7 @@ p {
   margin-right: auto;
   text-align: center;
   width: 60%;
-  color: rgb(222, 226, 235);
+  color: var(--bs-body-color) !important;
 }
 
 .sipdug {
@@ -100,7 +98,9 @@ p {
     justify-content: center;
     padding: 10px;
   margin: 5px 5px;
-  font-family: 'Russo One', sans-serif;
+  font-family: 'Rowdies', cursive;
+  
+
 }
 
 .links {
@@ -129,15 +129,26 @@ p {
   
 }
 
-
 .navbar {
-  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  width: 100%; 
+  overflow: hidden;
+  margin-bottom: 30px;
 }
+
+.navbar-nav {
+  margin-right: auto;
+}
+
 
 
 #mission-card {
   margin-top:0px;
-  border-top: 3px solid rgb(74, 63, 220);
+  border-top: 3px solid rgb(89, 85, 145);
   width: 1000px;
   margin-left: auto;
   margin-right: auto;
@@ -151,9 +162,9 @@ margin-right: auto;
 }
 
 #eboard {
-margin:30px;
+  margin:30px;
   display: inline-block;
-  width: 300px;
+  width: 250px;
 }
 
 .sms{
@@ -176,6 +187,7 @@ margin:30px;
   margin-top: 80px;
   margin-bottom: 30px;
   font-family: 'Acme', sans-serif;
+
 }
 
 h3 {
@@ -189,10 +201,12 @@ h3 {
 }
 
 .card-img-top {
-  width: 300px;
-  height: 300px;
-  border-top: 3px solid blueviolet;
+  width: 248px;
+  height: 248px;
+  border-top: 3px solid rgb(85, 76, 163);
 }
+
+
 
 iframe {
   border: 1px solid rgb(177, 156, 196);
@@ -336,8 +350,8 @@ body{
 
 
 .area{
-    background: #4e54c8;  
-    background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
+    background: #ffffff;  
+    background: -webkit-linear-gradient(to left, #9395c8, #4f56ce);  
     width: 100%;
     height:100vh;
    
@@ -376,7 +390,7 @@ body{
     list-style: none;
     width: 20px;
     height: 20px;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(38, 32, 90, 0.2);
     animation: animate 25s linear infinite;
     bottom: -150px;
     
@@ -534,7 +548,6 @@ body{
 }
 
 .tools  {
-  float: left;
   text-align: center;
   display: inline-block;
   padding-right: 10px;

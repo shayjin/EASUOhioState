@@ -18,9 +18,12 @@ export const Navbar = () => {
               <Link class="nav-link" to="icons">
                 <a class="nav-link" href="#">E-Board</a>
               </Link>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
+              <Link class="nav-link" to="icons">
+                <a class="nav-link" href="#">Contact</a>
+              </Link>
+              <Link class="nav-link" to="icons">
+                <a class="nav-link" href="#">Sponsor</a>
+              </Link>
             <li class="nav-item">
               <a class="nav-link" href="#">Sponsor</a>
             </li>

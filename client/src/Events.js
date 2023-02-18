@@ -13,7 +13,7 @@ export const Events = () => {
         des: ["Win big at our Free Merch Event on Feb 22nd! Come join us and receive prizes from our first event. ",
         "Don't miss out on this exciting opportunity!"]
         },
-        {title: "Far East Asian Student", type: "01/10/2023", 
+        {title: "Far East Asian Student Union", type: "01/10/2023", 
         des: ["FEASU, a new organization at Ohio State, celebrates Far East Asian culture and provides a platform for students to learn, connect, and grow. ",
         "Join us and be a part of something special. "]
         }
@@ -53,7 +53,7 @@ export const Events = () => {
           <div className="roles">        
             <p className="tools">{project.type}</p>
           </div>
-          <br/> 
+          <br/>
           <h2>{project.title}  </h2><br/>
             <p className="projDesDes">{project.des}</p><br/><br/>
         </div>
@@ -66,6 +66,7 @@ export const Events = () => {
         <>
             <Navbar/>
             <div className="proj">
+                <br/><br/><br/>
                 <ul>
                     {list}
                 </ul>

@@ -184,7 +184,7 @@ margin-right: auto;
 
 .title{
   text-align: center;
-  margin-top: 80px;
+  margin-top: 60px;
   margin-bottom: 30px;
   font-family: 'Acme', sans-serif;
 
@@ -502,7 +502,7 @@ body{
 }
 
 .proj img {
-  width: 550px;
+  width: 350px;
   height: 350px;
 }
 
@@ -559,7 +559,6 @@ body{
   background-color: #babacf;
   border-radius: 3px;
   color:rgb(0, 0, 0);
-  
 }
 
 
@@ -601,12 +600,13 @@ body{
 }
 
 .roles {
-  text-align: center;
+
 }
 
 
 .roles p {
   font-size: 13px;
+  float:left;
 }
 
 h2 {

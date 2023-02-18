@@ -15,23 +15,23 @@ export const Navbar = () => {
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav" className="navbar-nav">
-              <Link class="nav-link" to="icons">
+              <Link to="mission">
+                <a class="nav-link" href="#">About Us</a>
+              </Link>
+              <Link to="eboards">
                 <a class="nav-link" href="#">E-Board</a>
               </Link>
-              <Link class="nav-link" to="icons">
+              <Link to="contact">
                 <a class="nav-link" href="#">Contact</a>
               </Link>
-              <Link class="nav-link" to="icons">
+              <Link to="sponsor">
                 <a class="nav-link" href="#">Sponsor</a>
               </Link>
+                <a class="nav-link" href="/FEASU/Events">Events</a>
+                <a class="nav-link" href="/FEASU/Gallery">
+                  Gallery
+                </a>
             <li class="nav-item">
-              <a class="nav-link" href="#">Sponsor</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" to="/Events">Events</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Gallery</a>
             </li>
           </ul>
         </div>

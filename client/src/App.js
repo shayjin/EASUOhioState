@@ -178,6 +178,7 @@ function Icons() {
 function Contact() {
   return (
     <div className='contact'>
+      <br/>
       <h3 className='title'>Contact Us</h3>
       <p className='contact-des'>Have questions or need more information? Please feel free to contact us!</p>
       <div className='gang'>
@@ -225,7 +226,6 @@ function Main() {
     <>
       <Navbar />
       <Welcome />
-      <h3 className='title'>About FEASU</h3>
       <Mission />
       <WhyJoin />
       <Icons />
@@ -242,14 +242,18 @@ function Mission() {
   
   return (
     <>
-     <div class="card" id="mission-card">
-        <div class="card-body">
-          <h5 class="card-title">Our Mission</h5>
-          <p class="card-text">
-            {missionStatement}
-          </p>
+    <div className="mission">
+    <br/>
+      <h3 className='title'>About FEASU</h3>
+      <div class="card" id="mission-card">
+          <div class="card-body">
+            <h5 class="card-title">Our Mission</h5>
+            <p class="card-text">
+              {missionStatement}
+            </p>
+          </div>
         </div>
-      </div>
+    </div>
     </>
   );
 }
@@ -309,8 +313,9 @@ function EBoard() {
 
   return (
     <>
-      <h3 className='title'>E-Board</h3>
       <div className="eboards">
+        <br/>
+        <h3 className='title'>E-Board</h3>
         {x}
       </div>
     </>

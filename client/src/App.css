@@ -41,7 +41,7 @@ p {
 
 .logo {
   height: 50px;
-  margin-left: 12px;
+  margin-left: -3px;
   margin-right: 12px;
 }
 
@@ -263,7 +263,7 @@ background-color: #4e54c8;
 }
 
 .contact {
-  margin-top:-20px;
+  margin-top:10px;
   text-align: center;
 }
 

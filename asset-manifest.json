@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Feasu/static/css/main.9d57fb43.css",
-    "main.js": "/Feasu/static/js/main.762c2ffb.js",
+    "main.js": "/Feasu/static/js/main.8cb9ff43.js",
     "static/js/787.c4e7f8f9.chunk.js": "/Feasu/static/js/787.c4e7f8f9.chunk.js",
     "static/media/경민.png": "/Feasu/static/media/경민.1e171fc99914ef735c99.png",
     "static/media/jenny.png": "/Feasu/static/media/jenny.a1887fdb9bf031bb40ab.png",
@@ -33,11 +33,11 @@
     "static/media/씹덕.png": "/Feasu/static/media/씹덕.5f7e5afb39c248ae3dad.png",
     "index.html": "/Feasu/index.html",
     "main.9d57fb43.css.map": "/Feasu/static/css/main.9d57fb43.css.map",
-    "main.762c2ffb.js.map": "/Feasu/static/js/main.762c2ffb.js.map",
+    "main.8cb9ff43.js.map": "/Feasu/static/js/main.8cb9ff43.js.map",
     "787.c4e7f8f9.chunk.js.map": "/Feasu/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9d57fb43.css",
-    "static/js/main.762c2ffb.js"
+    "static/js/main.8cb9ff43.js"
   ]
 }

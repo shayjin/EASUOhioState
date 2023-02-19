@@ -261,10 +261,6 @@ iframe {
 }
 
 
-.carousel-control-prev-icon, .carousel-control-next-icon {
-background-color: #4e54c8;
-}
-
 
 .gallery {
   margin-top:-60px;
@@ -369,7 +365,7 @@ background-color: #4e54c8;
   }
 
   .contact3 p {
-    font-size: 12.5px;
+    font-size: 10px;
   }
 }
 
@@ -385,6 +381,11 @@ background-color: #4e54c8;
   .event img {
     width: 100%;
     height: 100%;
+  }
+
+  .d-block {
+    width: 320px;
+    height: 320px;
   }
 }
 
@@ -419,7 +420,6 @@ body{
 
 .area{
     background: #ffffff;  
-    background: -webkit-linear-gradient(to left, #9395c8, #4f56ce);  
     width: 100%;
     height:100vh;
    

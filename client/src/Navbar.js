@@ -1,37 +1,39 @@
 import React from 'react';
 import { Event } from './App';
-import {Route, Routes, BrowserRouter } from 'react-router-dom';
-import { Link } from 'react-scroll';
+import {Link as Link1, Route, Routes, BrowserRouter } from 'react-router-dom';
+import { Link as Link2 } from 'react-scroll';
 
 export const Navbar = () => {
     return (
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a href="/">
+        <Link1 to="/FEASU">
           <img src={require('./sources/logo-white.png')}  className='logo'></img>
-        </a>
+        </Link1>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav" className="navbar-nav">
-              <Link to="mission">
+          <Link2 to="mission">
                 <a class="nav-link" href="#">About Us</a>
-              </Link>
-              <Link to="eboards">
+              </Link2>
+              <Link2 to="eboards">
                 <a class="nav-link" href="#">E-Board</a>
-              </Link>
-              <Link to="contact">
+              </Link2>
+              <Link2 to="contact">
                 <a class="nav-link" href="#">Contact</a>
-              </Link>
-              <Link to="sponsor">
+              </Link2>
+              <Link2 to="sponsor">
                 <a class="nav-link" href="#">Sponsor</a>
-              </Link>
-                <a class="nav-link" href="/FEASU/Events">Events</a>
-                <a class="nav-link" href="/FEASU/Gallery">
-                  Gallery
-                </a>
-            <li class="nav-item">
-            </li>
+              </Link2>
+              
+              <Link1 class="nav-link" to="/FEASU/Events">
+                Events
+                </Link1>
+            <Link1 class="nav-link" to="/FEASU/Gallery">
+              Gallery
+              </Link1>
+
           </ul>
         </div>
       </nav>

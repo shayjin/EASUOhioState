@@ -44,12 +44,12 @@ function Welcome() {
               </button>
             </a>
 
-            <a href="/FEASU/Events">
+            <Link to="/FEASU/Events">
             <button class="btn btn-secondary">
               <img src={require('./sources/event.png')} className='lil-logo'/>
                 Check out past events!
               </button>
-            </a>
+            </Link>
             
           </div>
         </div>
@@ -78,7 +78,7 @@ function Event() {
 
       </div>
       <div className='links' ref={x}>
-        <a href="/EASU/Events">
+        <a href="/FEASU/Events">
           <button class="btn btn-secondary">
             <img src={require('./sources/event.png')} className='lil-logo'/>
             Check out past events!
@@ -332,7 +332,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/FEASU" element={<Main />} />
-        <Route path="/" element={<Main />} />
+        <Route path="" element={<Main />} />
         <Route path="*" element={<p>Path not resolved</p>} />
         <Route path="/FEASU/Events" element={<Events/>}></Route>
         <Route path="/FEASU/Gallery" element={<Gallery/>}></Route>

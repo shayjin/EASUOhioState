@@ -41,8 +41,8 @@ p {
 
 .logo {
   height: 50px;
-  margin-left: -3px;
-  margin-right: 12px;
+  margin-left: 0px;
+  margin-right: 13px;
 }
 
 .teul {
@@ -123,15 +123,12 @@ p {
 
 
 
-
-
 @media only screen and (max-width: 1000px) {
   
 }
 
 .navbar {
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 20px;
   position: fixed;
   top: 0;
   z-index: 999;
@@ -141,6 +138,7 @@ p {
 }
 
 .navbar-nav {
+
   margin-right: auto;
 }
 
@@ -154,6 +152,12 @@ p {
   margin-right: auto;
 }
 
+@media only screen and (max-width:1052px) {
+  #mission-card {
+    width: 95%;
+  }
+}
+
 .eboards {
 text-align: center;
 width: 90%;
@@ -164,7 +168,7 @@ margin-right: auto;
 #eboard {
   margin:30px;
   display: inline-block;
-  width: 250px;
+  width: 210px;
 }
 
 .sms{
@@ -200,13 +204,53 @@ h3 {
   margin-right: auto;
 }
 
+@media only screen and (max-width:789px) {
+  .whyList {
+    width: 95%;
+  }
+
+  .icons img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .icons p {
+    font-size: 14px;
+    margin-left: auto;
+  }
+
+  .icons h3 {
+    margin-top: 5px;
+  }
+
+  .icons div {
+    width: 150px !important;
+  } 
+
+  .navbar {
+    width: 100%;
+  }
+}
+
+
 .card-img-top {
-  width: 248px;
-  height: 248px;
+  width: 208px;
+  height: 208px;
   border-top: 3px solid rgb(85, 76, 163);
 }
 
 
+.card-text {
+  font-size: 14px;
+  margin-top:0px;
+  margin-bottom: 10px;
+}
+
+.dog {
+  margin-top:-7px;
+  width: 55px;
+  height: 55px;
+}
 
 iframe {
   border: 1px solid rgb(177, 156, 196);
@@ -268,9 +312,10 @@ background-color: #4e54c8;
 }
 
 .contact2 img{
-  width: 200px;
-  height: 200px;
-  margin-top: -50px;
+  width: 120px;
+  height: 120px;
+  margin-top:-15px;
+
 }
 
 .contact2 {
@@ -314,6 +359,20 @@ background-color: #4e54c8;
   margin-right: auto;
 }
 
+@media only screen and (max-width: 631px) {
+  .sponsor p{
+    width: 95%;
+  }
+
+  .gang {
+    width: 100%;
+  }
+
+  .contact3 p {
+    font-size: 12.5px;
+  }
+}
+
 .event img {
   margin-left: auto;
   margin-right: auto;
@@ -322,12 +381,21 @@ background-color: #4e54c8;
   height: 500px;
 }
 
+@media only screen and (max-width: 500px) {
+  .event img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
 
 @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
 
 *{
     margin: 0px;
     padding: 0px;
+    overflow-x: hidden; 
+
 }
 
 body{
@@ -338,7 +406,7 @@ body{
 .context {
     width: 100%;
     position: absolute;
-    top:17vh;
+    top:14.5vh;
     
 }
 
@@ -501,6 +569,7 @@ body{
   padding: 0;
 }
 
+
 .proj img {
   width: 350px;
   height: 350px;
@@ -537,6 +606,22 @@ body{
   text-align: left;
 }
 
+@media only screen and (max-width: 550px) {
+  .projDesDes {
+    width: 100%;
+  }
+
+
+
+  .proj img {
+    width:  350px;
+    height: 350px;
+  }
+
+
+}
+
+
 .projDes a {
   border-radius: 10000rem;
   padding: 9px 16px;
@@ -546,6 +631,8 @@ body{
   margin-bottom: 100px;
   float: left;
 }
+
+
 
 .tools  {
   text-align: center;
@@ -599,14 +686,15 @@ body{
   height: 30px;
 }
 
-.roles {
-
-}
 
 
 .roles p {
   font-size: 13px;
   float:left;
+}
+
+.roles {
+  margin-bottom: -15px;
 }
 
 h2 {

@@ -2,23 +2,6 @@
 import './App.css';
 import {Route, Link, Routes, BrowserRouter} from 'react-router-dom';
 import { Tweet } from './Tweet';
-import logo from './logo.png';
-import sipdug from './씹덕.png';
-import discord from './discord.png';
-import email from './email.png';
-import insta from './instagram.png';
-import snapchat from './snapchat.png';
-import friend from './friend.png';
-import calendar from './calendar.png';
-import language from './language.png';
-import user from './user.png';
-import sample from './sample.jpeg';
-import business from './business.png';
-import individual from './individual.png';
-import event from './event.png';
-import gallery from './gallery.png';
-import jenny from './jenny.png';
-import jay from './jay.png';
 import { Events } from './Events';
 import { Gallery } from './Gallery';
 import { Navbar } from "./Navbar";
@@ -43,40 +26,31 @@ function Welcome() {
             </ul>
       <div className='context'>
         <div className='header-text'>
-          <h1 className='header'> Far East Asian Student Union @ Ohio State</h1>
+          <h1 className='header'> East Asian Student Union @ Ohio State</h1>
           <div className='pic'>
-            <img src={require('./logo.png')} className='sipdug'></img>
+            <img src={require('./sources/logo.png')} className='sipdug'></img>
           </div>
           <p className='des'>
             <h5 class="whoAreWe">Who are we?: </h5> We are one of the largest Asian student organizations at The Ohio State University, 
-            proudly promoting diverse cultural events and pushing the boundaries on what it means to be a far east Asian at The Ohio State University. 
+            proudly promoting diverse cultural events and pushing the boundaries on what it means to be an east Asian at The Ohio State University. 
           </p>
           <div className='links'>
             <button class="btn btn-secondary">
-              <img src={email} className='lil-logo'/>Join our emailing list!
-            </button>
-            <button class="btn btn-secondary">
-              <img src={discord} className='lil-logo'/>Join our Discord server!
+              <img src={require('./sources/discord.png')} className='lil-logo'/>Join our Discord server!
             </button>
             <a href="https://www.instagram.com/feasu_osu/" target="_blank">
               <button class="btn btn-secondary">
-                <img src={insta} className='lil-logo'/>Follow us on Instagram!
-              </button>
-            </a>
-            
-          </div>
-          <div className='links'>
-            <a href="/FEASU/Events">
-              <button class="btn btn-secondary">
-                  <img src={event} className='lil-logo'/>Check out our past events!
-              </button>
-            </a>
-            <a href="/FEASU/Gallery">
-              <button class="btn btn-secondary">
-                <img src={gallery} className='lil-logo'/>Check out our gallery!
+                <img src={require('./sources/instagram.png')} className='lil-logo'/>Follow us on Instagram!
               </button>
             </a>
 
+            <a href="/FEASU/Events">
+            <button class="btn btn-secondary">
+              <img src={require('./sources/event.png')} className='lil-logo'/>
+                Check out past events!
+              </button>
+            </a>
+            
           </div>
         </div>
       </div>
@@ -100,14 +74,14 @@ function Event() {
     <>
       <div className='event'>
         <h3 className='title'>Upcoming Event</h3>
-        <img src={require('./1st-gbm.png')} />
+        <img src={require('./sources/1st-gbm.png')} />
 
       </div>
       <div className='links' ref={x}>
-        <a href="/Events">
+        <a href="/EASU/Events">
           <button class="btn btn-secondary">
-            <img src={event} className='lil-logo'/>
-            View past events
+            <img src={require('./sources/event.png')} className='lil-logo'/>
+            Check out past events!
           </button>
         </a>
       </div>
@@ -120,15 +94,15 @@ function WhyJoin() {
   var list = [
     {
       type: "Cultural Awareness",
-      text: "Students have the opportunity to explore diverse cultural heritage of Far East Asia and interact with like-minded individuals to broaden their understanding of different cultures."
+      text: "Students have the opportunity to explore diverse cultural heritage of  Asia and interact with like-minded individuals to broaden their understanding of different cultures."
     },
     {
       type: "Fun & Engaging Events",
-      text: "FEASU hosts a variety of engaging events that allow students to learn about Far East Asian culture, socialize, and have fun!"
+      text: "EASU hosts a variety of engaging events that allow students to learn about East Asian culture, socialize, and have fun!"
     },
     {
       type: "Language and Cultural Exchange",
-      text: "FEASU offers studennts the opportunity to participate in language and cultural exchange programs, where they can practice their language skills and learn about the traditions of Far East Asian countries."
+      text: "EASU offers studennts the opportunity to participate in language and cultural exchange programs, where they can practice their language skills and learn about the traditions of East Asian countries."
     }
   ];
 
@@ -140,7 +114,7 @@ function WhyJoin() {
 
   return (
     <>
-      <h3 className='title'>Why You Should Join FEASU</h3>
+      <h3 className='title'>Why You Should Join EASU</h3>
       <div className='whyList'>
         <ul>
           {x}
@@ -155,17 +129,17 @@ function Icons() {
     <>
       <div className='icons'>
         <div>
-          <img src={friend}  className='logo'></img>
+          <img src={require('./sources/friend.png')}  className='logo'></img>
           <h3>Make Friends</h3>
           <p>Experience the cultural exchange from the Ohio State community!</p>
         </div>
         <div>
-          <img src={language}  className='logo'></img>
+          <img src={require('./sources/language.png')}  className='logo'></img>
           <h3>Learn Languages</h3>
           <p>Get one-on-one tutorial sessions for free!</p>
         </div>
         <div>
-          <img src={calendar}  className='logo'></img>
+          <img src={require('./sources/calendar.png')}  className='logo'></img>
           <h3>Events Calendar</h3>
           <p>Look up our fun upcoming events and mark your calendars! </p>
         </div>
@@ -183,11 +157,11 @@ function Contact() {
       <p className='contact-des'>Have questions or need more information? Please feel free to contact us!</p>
       <div className='gang'>
         <div className='contact2'>
-          <img src={require('./logo.png')}/>
+          <img src={require('./sources/logo.png')}/>
         </div>
         <div className='contact3'>
-          <p><img src={user}/>Jenny Lim</p>
-          <p><img src={email}/>lim.1370@osu.edu</p>
+          <p><img src={require('./sources/user.png')}/>Jenny Lim</p>
+          <p><img src={require('./sources/email.png')}/>lim.1370@osu.edu</p>
         </div>
       </div>
       
@@ -200,7 +174,7 @@ function Sponsor() {
     <div className='sponsor'>
       <h3 className='title'>Sponsor</h3>
       <p>
-        Thank you so much for your interest in supporting FEASU. We rely on your donations to pay for...
+        Thank you so much for your interest in supporting EASU. We rely on your donations to pay for...
       </p>
       <ul>
         <li>Organizing & hosting our monthly club events</li>
@@ -209,10 +183,10 @@ function Sponsor() {
       </ul>
       <div className='links'>
             <button class="btn btn-secondary">
-              <img src={business} className='lil-logo'/>Corporate Donation
+              <img src={require('./sources/business.png')} className='lil-logo'/>Corporate Donation
             </button>
             <button class="btn btn-secondary">
-              <img src={individual} className='lil-logo'/>Individual Donantion
+              <img src={require('./sources/individual.png')} className='lil-logo'/>Individual Donantion
             </button>
           </div>
 
@@ -238,13 +212,13 @@ function Main() {
 }
 
 function Mission() {
-  var missionStatement = "The mission of Far East Asian Student Union (FEASU) at The Ohio State University is to promote and celebrate the diverse cultural heritage of Far East Asia within the university community. We strive to create a safe and inclusive environment for students to explore, understand, and share their unique cultural experiences. Our organization is dedicated to pushing the boundaries of what it means to be a Far East Asian student at The Ohio State University through innovative and engaging events and activities. We are committed to fostering unity, cultural awareness, and leadership within the university and beyond.";
+  var missionStatement = "The mission of East Asian Student Union (EASU) at The Ohio State University is to promote and celebrate the diverse cultural heritage of East Asia within the university community. We strive to create a safe and inclusive environment for students to explore, understand, and share their unique cultural experiences. Our organization is dedicated to pushing the boundaries of what it means to be a East Asian student at The Ohio State University through innovative and engaging events and activities. We are committed to fostering unity, cultural awareness, and leadership within the university and beyond.";
   
   return (
     <>
     <div className="mission">
     <br/>
-      <h3 className='title'>About FEASU</h3>
+      <h3 className='title'>About EASU</h3>
       <div class="card" id="mission-card">
           <div class="card-body">
             <h5 class="card-title">Our Mission</h5>
@@ -262,28 +236,58 @@ function EBoard() {
   let eboards = [
     {name: "Jenny Lim",
     position: "President",
-    bio: "hi",
-    picture: jenny,
+    dog: require('./sources/dog_milk.png'),
+    major: "2nd Year Marketing",
+    picture: require('./sources/jenny.png'),
     insta: "hyacinth._.ia"},
-    {name: "Jay Shin",
-    position: "Vice President",
-    bio: "hello",
-    picture: jay,
-    insta: "shayjin33"},
+    {
+      name: "Jay Shin",
+      position: "Vice President",
+      major: "3rd Year CSE",
+      dog: require('./sources/dog_blacksugar.png'),
+      picture: require('./sources/jay.png'),
+      insta: "shayjin33"
+    },
     {
       name: "James Ahn",
       position: "Treasurer",
-      bio: "hello",
-      picture: require('./윤기.png'),
+      dog: require('./sources/dog_taro.png'),
+      major: "2nd Year ChemE",
+      picture: require('./sources/윤기.png'),
       insta: "james.a_135"
     },
     {
       name: "Jiyun Lee",
       position: "Strategic Management",
-      bio: "hello!",
-      picture: require('./지윤.png'),
+      dog: require('./sources/dog_mango.png'),
+      major: "1st Year CSE",
+      picture: require('./sources/지윤.png'),
       insta: "jiyunl1"
     },
+    {
+      name: "Jin Kim",
+      position: "Secretary",
+      dog: require('./sources/dog_nangman.png'),
+      major: "3rd Year Sports Industry",
+      picture: require('./sources/진성.png'),
+      insta: "j_kim185"
+    },
+    {
+      name: "Ella Lee",
+      position: "Media Chair",
+      dog: require('./sources/dog_matcha.png'),
+      major: "4th Year MIS",
+      picture: require('./sources/경민.png'),
+      insta: "kyungminnx"
+    },
+    {
+      name: "Minwoong Jeong",
+      position: "Event Chair",
+      dog: require('./sources/dog_strawberry.png'),
+      major: "3rd Year MechE",
+      picture: require('./sources/웅민.png'),
+      insta: "minwoong.jeong"
+    }
   ];
 
   let x = [];
@@ -292,20 +296,21 @@ function EBoard() {
     var eboard = eboards[i];
     var instaLink = "https://www.instagram.com/" + eboard.insta;
     x.push(
-      <div class="card" id="eboard">
+      <div className="card" id="eboard">
       <img class="card-img-top" src={eboard.picture} alt="Card image cap"/>
       <div class="card-body">
         <h5 class="card-title">{eboard.name}</h5>
-        <p class="card-text">{eboard.position}</p>
+        <img className="dog" src={eboard.dog}></img>
+        <b><p class="card-text">{eboard.position}</p></b>
+        <p class="card-text">{eboard.major}</p>
         <div className="sms">
           <div>
-            <a href={instaLink} target="_blank"><img src={insta}></img></a>
+            <a href={instaLink} target="_blank"><img src={require('./sources/instagram.png')}></img></a>
           </div>
           <div>
-            <a href="#"><img src={email}></img></a>
+            <a href="#"><img src={require('./sources/email.png')}></img></a>
           </div>
         </div>
-        
       </div>
     </div>
     );

@@ -3,6 +3,7 @@ import { Navbar } from "./Navbar2";
 import {Link, Route, Routes, BrowserRouter } from 'react-router-dom';
 
 export const Events = () => {
+    window.scrollTo(0, 0);
     var prop = [
         {title: "1st General Body Meeting", type: "02/22/2023", 
         des: ["Join us for our first General Body Meeting of the semester on 2/22! ",

@@ -206,7 +206,7 @@ h3 {
 
 @media only screen and (max-width:789px) {
   .whyList {
-    width: 95%;
+    width: 100%;
   }
 
   .icons img {
@@ -357,7 +357,7 @@ iframe {
 
 @media only screen and (max-width: 631px) {
   .sponsor p{
-    width: 95%;
+    width: 100%;
   }
 
   .gang {

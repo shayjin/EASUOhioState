@@ -78,12 +78,12 @@ function Event() {
 
       </div>
       <div className='links' ref={x}>
-      <Link to="/FEASU/Events">
+        <Link to="/FEASU/Events">
             <button class="btn btn-secondary">
               <img src={require('./sources/event.png')} className='lil-logo'/>
                 Check out past events!
               </button>
-            </Link>
+          </Link>
       </div>
     </>
 

@@ -50,55 +50,13 @@ function Welcome() {
                 Check out past events!
               </button>
             </Link>
-            
-          </div>
-        </div>
-      </div>
-      </div >
-      <div class="area2" >
-            <ul class="circles">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-            </ul>
-      <div className='context'>
-        <div className='header-text'>
-          <h1 className='header'> East Asian Student Union @ Ohio State</h1>
-          <div className='pic'>
-            <img src={require('./sources/logo.png')} className='sipdug'></img>
-          </div>
-          <p className='des'>
-            <h5 class="whoAreWe">Who are we?: </h5> We are one of the largest Asian student organizations at The Ohio State University, 
-            proudly promoting diverse cultural events and pushing the boundaries on what it means to be an east Asian at The Ohio State University. 
-          </p>
-          <div className='links'>
-            <button class="btn btn-secondary">
-              <img src={require('./sources/discord.png')} className='lil-logo'/>Join our Discord server!
-            </button>
-            <a href="https://www.instagram.com/feasu_osu/" target="_blank">
-              <button class="btn btn-secondary">
-                <img src={require('./sources/instagram.png')} className='lil-logo'/>Follow us on Instagram!
-              </button>
-            </a>
 
-            <Link to="/FEASU/Events">
-            <button class="btn btn-secondary">
-              <img src={require('./sources/event.png')} className='lil-logo'/>
-                Check out past events!
-              </button>
-            </Link>
             
           </div>
         </div>
       </div>
       </div >
+
     </>
   );
 }

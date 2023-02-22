@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.6373046d.css",
+    "main.css": "/static/css/main.fe0f4a72.css",
     "main.js": "/static/js/main.00c075a8.js",
     "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
     "static/media/경민.png": "/static/media/경민.1e171fc99914ef735c99.png",
@@ -32,12 +32,12 @@
     "static/media/calendar.png": "/static/media/calendar.fcb59f6638e1c3e6d136.png",
     "static/media/씹덕.png": "/static/media/씹덕.5f7e5afb39c248ae3dad.png",
     "index.html": "/index.html",
-    "main.6373046d.css.map": "/static/css/main.6373046d.css.map",
+    "main.fe0f4a72.css.map": "/static/css/main.fe0f4a72.css.map",
     "main.00c075a8.js.map": "/static/js/main.00c075a8.js.map",
     "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6373046d.css",
+    "static/css/main.fe0f4a72.css",
     "static/js/main.00c075a8.js"
   ]
 }

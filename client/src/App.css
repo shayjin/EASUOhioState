@@ -41,6 +41,7 @@ p {
 
 .logo {
   height: 50px;
+
   margin-left: 0px;
   margin-right: 13px;
 }
@@ -76,7 +77,7 @@ p {
 .sipdug {
   margin-top:0px;
   margin-bottom: 10px;
-  width: 300px;
+  width: 400px;
   height: 300px;
   margin-left: auto;
   margin-right:auto;
@@ -290,7 +291,9 @@ iframe {
   margin-right: auto;
   display: block;
 }
-
+.carousel-control-prev-icon, .carousel-control-next-icon  {
+  background-color: #444450;
+}
 #carouselExampleControls {
   margin-left: auto;
   margin-right: auto;
@@ -319,20 +322,21 @@ iframe {
 }
 
 .contact2 img{
-  width: 120px;
-  height: 120px;
-  margin-top:-15px;
+  width: 130px;
+  height: 115px;
+
 
 }
 
 .contact2 {
   border-right: 0.5px solid black;
-  height: 100px;
+  height: 150px;
   width: 300px;
 }
 
 .contact3 {
   width: 300px;
+  margin-top:20px;
 }
 
 .contact3 p {
@@ -364,7 +368,9 @@ iframe {
   width: 600px;
   margin-left: auto;
   margin-right: auto;
+  
 }
+
 
 @media only screen and (max-width: 631px) {
   .sponsor p{
@@ -380,7 +386,7 @@ iframe {
   }
 
   .contact3 p {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .contact3 img {
@@ -426,7 +432,6 @@ iframe {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
-
 }
 
 body {

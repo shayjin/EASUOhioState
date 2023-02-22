@@ -32,19 +32,21 @@ function Welcome() {
           </div>
           <p className='des'>
             <h5 class="whoAreWe">Who are we?: </h5> We are one of the largest Asian student organizations at The Ohio State University, 
-            proudly promoting diverse cultural events and pushing the boundaries on what it means to be an east Asian at The Ohio State University. 
+            proudly promoting diverse cultural events and pushing the boundaries on what it means to be an EEast Asian at The Ohio State University. 
           </p>
           <div className='links'>
-            <button class="btn btn-secondary">
-              <img src={require('./sources/discord.png')} className='lil-logo'/>Join our Discord server!
-            </button>
+            <a href="https://web.groupme.com/join_group/91463777/ssmWCZe3" target="_blank">
+              <button class="btn btn-secondary">
+                <img src={require('./sources/discord.png')} className='lil-logo'/>Join EASU's GroupMe!
+              </button>
+            </a>
             <a href="https://www.instagram.com/feasu_osu/" target="_blank">
               <button class="btn btn-secondary">
                 <img src={require('./sources/instagram.png')} className='lil-logo'/>Follow us on Instagram!
               </button>
             </a>
 
-            <Link to="/FEASU/Events">
+            <Link to="/EASU/Events">
             <button class="btn btn-secondary">
               <img src={require('./sources/event.png')} className='lil-logo'/>
                 Check out past events!
@@ -80,7 +82,7 @@ function Event() {
 
       </div>
       <div className='links' ref={x}>
-      <Link to="/FEASU/Events">
+      <Link to="/EASU/Events">
             <button class="btn btn-secondary">
               <img src={require('./sources/event.png')} className='lil-logo'/>
                 Check out past events!
@@ -162,7 +164,7 @@ function Contact() {
           <img src={require('./sources/logo.png')}/>
         </div>
         <div className='contact3'>
-          <p><img src={require('./sources/user.png')}/>Jenny Lim</p>
+          <p><img src={require('./sources/user.png')}/>Jen Lim</p>
           <p><img src={require('./sources/email.png')}/>lim.1370@osu.edu</p>
         </div>
       </div>
@@ -179,9 +181,9 @@ function Sponsor() {
         Thank you so much for your interest in supporting EASU. We rely on your donations to pay for...
       </p>
       <ul>
-        <li>Organizing & hosting our monthly club events</li>
-        <li>Prizes for our events</li>
-        <li>Keeping this website up</li>
+        <li>- Organizing & hosting our monthly club events</li>
+        <li>- Prizes for our events</li>
+        <li>- Keeping this website up</li>
       </ul>
       <div className='links'>
             <button class="btn btn-secondary">
@@ -214,7 +216,7 @@ function Main() {
 }
 
 function Mission() {
-  var missionStatement = "The mission of East Asian Student Union (EASU) at The Ohio State University is to promote and celebrate the diverse cultural heritage of East Asia within the university community. We strive to create a safe and inclusive environment for students to explore, understand, and share their unique cultural experiences. Our organization is dedicated to pushing the boundaries of what it means to be a East Asian student at The Ohio State University through innovative and engaging events and activities. We are committed to fostering unity, cultural awareness, and leadership within the university and beyond.";
+  var missionStatement = "The mission of East Asian Student Union (EASU) at The Ohio State University is to promote and celebrate the diverse cultural heritage of East Asia within the university community. We strive to create a safe and inclusive environment for students to explore, understand, and share their unique cultural experiences. Our organization is dedicated to pushing the boundaries of what it means to be an East Asian student at The Ohio State University through innovative and engaging events and activities. We are committed to fostering unity, cultural awareness, and leadership within the university and beyond.";
   
   return (
     <>
@@ -333,11 +335,11 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/FEASU" element={<Main />} />
+        <Route path="/EASU" element={<Main />} />
         <Route path="" element={<Main />} />
         <Route path="*" element={<p>Path not resolved</p>} />
-        <Route path="/FEASU/Events" element={<Events/>}></Route>
-        <Route path="/FEASU/Gallery" element={<Gallery/>}></Route>
+        <Route path="/EASU/Events" element={<Events/>}></Route>
+        <Route path="/EASU/Gallery" element={<Gallery/>}></Route>
       </Routes> 
     </BrowserRouter>
   );

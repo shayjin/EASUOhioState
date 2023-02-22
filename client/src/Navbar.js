@@ -6,7 +6,7 @@ import { Link as Link2 } from 'react-scroll';
 export const Navbar = () => {
     return (
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <Link1 to="/FEASU">
+        <Link1 to="/EASU">
           <img src={require('./sources/logo-white.png')}  className='logo'></img>
         </Link1>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,10 +27,10 @@ export const Navbar = () => {
                 <a class="nav-link" href="#">Sponsor</a>
               </Link2>
               
-              <Link1 class="nav-link" to="/FEASU/Events">
+              <Link1 class="nav-link" to="/EASU/Events">
                 Events
                 </Link1>
-            <Link1 class="nav-link" to="/FEASU/Gallery">
+            <Link1 class="nav-link" to="/EASU/Gallery">
               Gallery
               </Link1>
 

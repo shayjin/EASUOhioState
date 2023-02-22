@@ -29,6 +29,9 @@ p {
     
 }
 
+
+
+
 .des {
   margin-top:10px;
   margin-bottom: 30px;
@@ -425,6 +428,9 @@ iframe {
   }
 }
 
+.title, p, img, .card-title, h3, h2 {
+  overflow-y:hidden;
+}
 
 @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
 
@@ -437,7 +443,6 @@ iframe {
 body {
     font-family: 'Exo', sans-serif;
 }
-
 
 .context {
     width: 100%;

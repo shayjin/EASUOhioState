@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.fe0f4a72.css",
-    "main.js": "/static/js/main.00c075a8.js",
+    "main.js": "/static/js/main.ad0ca625.js",
     "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
     "static/media/경민.png": "/static/media/경민.1e171fc99914ef735c99.png",
-    "static/media/jenny.png": "/static/media/jenny.a1887fdb9bf031bb40ab.png",
     "static/media/진성.png": "/static/media/진성.38dfbce928b204623c4c.png",
     "static/media/merchevent.png": "/static/media/merchevent.f462191315cfd17b8bde.png",
-    "static/media/jay.png": "/static/media/jay.d2214b1d145708adbbb9.png",
+    "static/media/jenny.png": "/static/media/jenny.9a27d91de8e1d5a48127.png",
     "static/media/윤기.png": "/static/media/윤기.00854433bb46a2de3ed8.png",
+    "static/media/jay.png": "/static/media/jay.0d40ff9ee21d2218d92d.png",
     "static/media/지윤.png": "/static/media/지윤.8ecb3b97de7d28006568.png",
     "static/media/웅민.png": "/static/media/웅민.66b3f01752667cbfb9ad.png",
     "static/media/1st-gbm.png": "/static/media/1st-gbm.c72de6437c2bedf188b2.png",
@@ -33,11 +33,11 @@
     "static/media/씹덕.png": "/static/media/씹덕.5f7e5afb39c248ae3dad.png",
     "index.html": "/index.html",
     "main.fe0f4a72.css.map": "/static/css/main.fe0f4a72.css.map",
-    "main.00c075a8.js.map": "/static/js/main.00c075a8.js.map",
+    "main.ad0ca625.js.map": "/static/js/main.ad0ca625.js.map",
     "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fe0f4a72.css",
-    "static/js/main.00c075a8.js"
+    "static/js/main.ad0ca625.js"
   ]
 }

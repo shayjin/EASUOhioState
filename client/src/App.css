@@ -422,14 +422,14 @@ iframe {
 
 @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
 
 }
 
-body{
+body {
     font-family: 'Exo', sans-serif;
 }
 
@@ -437,8 +437,7 @@ body{
 .context {
     width: 100%;
     position: absolute;
-    top:14.5vh;
-    
+    top:100px;
 }
 
 .context h1{

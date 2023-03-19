@@ -1,8 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.fe0f4a72.css",
-    "main.js": "/static/js/main.ad0ca625.js",
+    "main.css": "/static/css/main.cff5f6eb.css",
+    "main.js": "/static/js/main.f0b1afe6.js",
     "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/eboard2324.png": "/static/media/eboard2324.01d2bdef163fc7b9359f.png",
+    "static/media/1st-gbm.png": "/static/media/1st-gbm.4161e1352bda1ea70e5a.png",
+    "static/media/easucafe.png": "/static/media/easucafe.209469a7a5613db77a4b.png",
+    "static/media/fundraiser.png": "/static/media/fundraiser.468bd31b6da085d81925.png",
     "static/media/경민.png": "/static/media/경민.1e171fc99914ef735c99.png",
     "static/media/진성.png": "/static/media/진성.38dfbce928b204623c4c.png",
     "static/media/merchevent.png": "/static/media/merchevent.f462191315cfd17b8bde.png",
@@ -11,7 +15,6 @@
     "static/media/jay.png": "/static/media/jay.0d40ff9ee21d2218d92d.png",
     "static/media/지윤.png": "/static/media/지윤.8ecb3b97de7d28006568.png",
     "static/media/웅민.png": "/static/media/웅민.66b3f01752667cbfb9ad.png",
-    "static/media/1st-gbm.png": "/static/media/1st-gbm.c72de6437c2bedf188b2.png",
     "static/media/dog_blacksugar.png": "/static/media/dog_blacksugar.b57ce0099ad4c45f3b79.png",
     "static/media/dog_strawberry.png": "/static/media/dog_strawberry.349f815380697b8e71a2.png",
     "static/media/dog_mango.png": "/static/media/dog_mango.d2fd022e1230e74a1575.png",
@@ -32,12 +35,12 @@
     "static/media/calendar.png": "/static/media/calendar.fcb59f6638e1c3e6d136.png",
     "static/media/씹덕.png": "/static/media/씹덕.5f7e5afb39c248ae3dad.png",
     "index.html": "/index.html",
-    "main.fe0f4a72.css.map": "/static/css/main.fe0f4a72.css.map",
-    "main.ad0ca625.js.map": "/static/js/main.ad0ca625.js.map",
+    "main.cff5f6eb.css.map": "/static/css/main.cff5f6eb.css.map",
+    "main.f0b1afe6.js.map": "/static/js/main.f0b1afe6.js.map",
     "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe0f4a72.css",
-    "static/js/main.ad0ca625.js"
+    "static/css/main.cff5f6eb.css",
+    "static/js/main.f0b1afe6.js"
   ]
 }

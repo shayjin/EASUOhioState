@@ -15,9 +15,8 @@ export const Navbar = () => {
           <ul class="navbar-nav" className="navbar-nav">
                 <Link class="nav-link" to="/EASU">Home</Link>
                 <Link class="nav-link" to="/EASU/Events">Events</Link>
-                <Link class="nav-link" to="/EASU/Gallery">
-                  Gallery
-                </Link>
+                <Link class="nav-link" to="/EASU/Gallery">Gallery</Link>
+                <Link class="nav-link" to="/EASU/History">History</Link>
             <li class="nav-item">
             </li>
           </ul>

@@ -4,6 +4,7 @@ import {Route, Link, Routes, BrowserRouter} from 'react-router-dom';
 import { Tweet } from './Tweet';
 import { Events } from './Events';
 import { Gallery } from './Gallery';
+import { History } from "./History";
 import { Navbar } from "./Navbar";
 import { useRef } from "react";
 
@@ -78,7 +79,7 @@ function Event() {
     <>
       <div className='event'>
         <h3 className='title'>Upcoming Event</h3>
-        <img src={require('./sources/1st-gbm.png')} />
+        <img src={require('./sources/easucafe.png')} />
 
       </div>
       <div className='links' ref={x}>
@@ -340,6 +341,7 @@ function App() {
         <Route path="*" element={<p>Path not resolved</p>} />
         <Route path="/EASU/Events" element={<Events/>}></Route>
         <Route path="/EASU/Gallery" element={<Gallery/>}></Route>
+        <Route path="/EASU/History" element={<History/>}></Route>
       </Routes> 
     </BrowserRouter>
   );

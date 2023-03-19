@@ -33,6 +33,9 @@ export const Navbar = () => {
             <Link1 class="nav-link" to="/EASU/Gallery">
               Gallery
               </Link1>
+              <Link1 class="nav-link" to="/EASU/History">
+                History
+              </Link1>
 
           </ul>
         </div>

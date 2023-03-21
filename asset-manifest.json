@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e171da32.css",
-    "main.js": "/static/js/main.a12bdec8.js",
+    "main.js": "/static/js/main.fd073ed4.js",
     "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
     "static/media/eboard2324.png": "/static/media/eboard2324.01d2bdef163fc7b9359f.png",
     "static/media/1st-gbm.png": "/static/media/1st-gbm.4161e1352bda1ea70e5a.png",
@@ -12,6 +12,7 @@
     "static/media/merchevent.png": "/static/media/merchevent.f462191315cfd17b8bde.png",
     "static/media/jenny.png": "/static/media/jenny.9a27d91de8e1d5a48127.png",
     "static/media/윤기.png": "/static/media/윤기.00854433bb46a2de3ed8.png",
+    "static/media/laughingorge.png": "/static/media/laughingorge.5aaa0c2fa9bd3b9c8037.png",
     "static/media/jay.png": "/static/media/jay.0d40ff9ee21d2218d92d.png",
     "static/media/지윤.png": "/static/media/지윤.8ecb3b97de7d28006568.png",
     "static/media/웅민.png": "/static/media/웅민.66b3f01752667cbfb9ad.png",
@@ -24,7 +25,6 @@
     "static/media/dog_nangman.png": "/static/media/dog_nangman.7e28646ddc562913ad19.png",
     "static/media/logo.png": "/static/media/logo.7e28646ddc562913ad19.png",
     "static/media/logo-white.png": "/static/media/logo-white.a42f71cf08c34e07e3f2.png",
-    "static/media/laughingorge.png": "/static/media/laughingorge.4142c43febe7b9ef790d.png",
     "static/media/event.png": "/static/media/event.dd76673a84798bd0e94a.png",
     "static/media/discord.png": "/static/media/discord.f4afa694ff18318c6b97.png",
     "static/media/instagram.png": "/static/media/instagram.776d16d0e9daa177afd5.png",
@@ -37,11 +37,11 @@
     "static/media/씹덕.png": "/static/media/씹덕.5f7e5afb39c248ae3dad.png",
     "index.html": "/index.html",
     "main.e171da32.css.map": "/static/css/main.e171da32.css.map",
-    "main.a12bdec8.js.map": "/static/js/main.a12bdec8.js.map",
+    "main.fd073ed4.js.map": "/static/js/main.fd073ed4.js.map",
     "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e171da32.css",
-    "static/js/main.a12bdec8.js"
+    "static/js/main.fd073ed4.js"
   ]
 }

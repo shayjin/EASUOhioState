@@ -782,3 +782,39 @@ h2 {
   display: block;
   text-align: center;
 }
+
+.sponsorPic {
+  width: 180px;
+}
+
+.rank {
+
+    font-size: 18px;
+}
+
+.rank div {
+  display: inline-block;
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
+#diamond {
+  color:rgb(38, 117, 117);
+  font-weight: bold;
+}
+
+#gold {
+  color:rgb(169, 176, 36);
+  font-weight: bold;
+}
+
+#silver {
+  color: rgb(143, 143, 160);
+  font-weight: bold;
+}
+
+#tlo {
+  color:rgb(169, 176, 36);
+  text-align: center;
+  font-weight: bold;
+}

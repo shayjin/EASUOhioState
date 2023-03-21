@@ -178,6 +178,13 @@ function Sponsor() {
   return (
     <div className='sponsor'>
       <h3 className='title'>Sponsor</h3>
+      <div className='rank'>
+        <div id="gold">Gold: Supplies</div>
+        <div id="diamond">Diamond: $500+</div>
+        <div id="silver">Silver: $0+</div>
+      </div>
+      <img className="sponsorPic" src={require('./sources/laughingorge.png')}/>
+      <p id="tlo">The Laughing Orge</p>
       <p>
         Thank you so much for your interest in supporting EASU. We rely on your donations to pay for...
       </p>
@@ -187,11 +194,13 @@ function Sponsor() {
         <li>- Keeping this website up</li>
       </ul>
       <div className='links'>
+            <a href="https://forms.gle/C1wLxnz76b3jXrzVA" target="_blank">
+              <button class="btn btn-secondary">
+                <img src={require('./sources/business.png')} className='lil-logo'/>Supply Donation
+              </button>
+            </a>
             <button class="btn btn-secondary">
-              <img src={require('./sources/business.png')} className='lil-logo'/>Corporate Donation
-            </button>
-            <button class="btn btn-secondary">
-              <img src={require('./sources/individual.png')} className='lil-logo'/>Individual Donantion
+              <img src={require('./sources/individual.png')} className='lil-logo'/>Financial Donantion
             </button>
           </div>
 

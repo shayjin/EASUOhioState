@@ -33,7 +33,7 @@ function Welcome() {
           </div>
           <p className='des'>
             <h5 class="whoAreWe">Who are we?: </h5> We are one of the largest Asian student organizations at The Ohio State University, 
-            proudly promoting diverse cultural events and pushing the boundaries on what it means to be an EEast Asian at The Ohio State University. 
+            proudly promoting diverse cultural events and pushing the boundaries on what it means to be an East Asian at The Ohio State University. 
           </p>
           <div className='links'>
             <a href="https://web.groupme.com/join_group/91463777/ssmWCZe3" target="_blank">
@@ -50,7 +50,7 @@ function Welcome() {
             <Link to="/EASU/Events">
             <button class="btn btn-secondary">
               <img src={require('./sources/event.png')} className='lil-logo'/>
-                Check out past events!
+                Check out upcoming events!
               </button>
             </Link>
 
@@ -200,7 +200,7 @@ function Sponsor() {
               </button>
             </a>
             <button class="btn btn-secondary">
-              <img src={require('./sources/individual.png')} className='lil-logo'/>Financial Donantion
+              <img src={require('./sources/individual.png')} className='lil-logo'/>Sponsorship
             </button>
           </div>
 
@@ -248,7 +248,7 @@ function Mission() {
 
 function EBoard() {
   let eboards = [
-    {name: "Jenny Lim",
+    {name: "Jen Lim",
     position: "President",
     dog: require('./sources/dog_milk.png'),
     major: "2nd Year Marketing",

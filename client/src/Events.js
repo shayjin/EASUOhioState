@@ -5,6 +5,9 @@ import {Link, Route, Routes, BrowserRouter } from 'react-router-dom';
 export const Events = () => {
     window.scrollTo(0, 0);
     var prop = [
+        {title: "EASC Film Screening", type: "04/15/2023", 
+        des: ["EASU was invited to a screening of the award winning documentary ⭐️\"Far East Deep South\"⭐️🎥🎬 run by EASC (East Asian Studies Center)!"]
+        },
         {title: "K-pop & Manga Café", type: "03/25/2023", 
         des: ["Dive into mangas and check out our collection of K-pop idols merch. We'll be serving some of the cutest desserts and drinks around, perfect for satisfying your sweet tooth!"]
         },
@@ -23,7 +26,7 @@ export const Events = () => {
         des: ["Win big at our Free Merch Event on Feb 22nd! Come join us and receive prizes from our first event. ",
         "Don't miss out on this exciting opportunity!"]
         },
-        {title: "East Asian Student Union", type: "01/10/2023", 
+        {title: "East Asian Student Union Launched", type: "01/10/2023", 
         des: ["EASU, a new organization at Ohio State, celebrates East Asian culture and provides a platform for students to learn, connect, and grow. ",
         "Join us and be a part of something special. "]
         }
@@ -31,7 +34,7 @@ export const Events = () => {
 
     const list = [];
 
-    const pics = ['easucafe', 'eboard2324', 'fundraiser', '1st-gbm', 'merchevent', 'logo'];
+    const pics = ['easc_film_screening', 'easucafe', 'eboard2324', 'fundraiser', '1st-gbm', 'merchevent', 'logo'];
     for (var i = 0; i < prop.length; i++) {
       let project = prop[i];
 

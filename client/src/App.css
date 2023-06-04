@@ -7,10 +7,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
 
-p {
-  font-family: 'Work Sans', sans-serif;
+@font-face {
+  font-family: 'San Francisco';
+  src: url('fonts/SF-Pro-Display-Regular.ttf') format('truetype');
 }
+
+@font-face {
+  font-family: 'San Francisco Bold';
+  src: url('fonts/SF-Pro-Display-Regular.ttf') format('truetype');
+}
+body {
+  background-color: rgba(255, 254, 254, 1);
+}
+p {
+  font-family: 'San Francisco', Arial, sans-serif;
+}
+
+
+h3 {
+  font-weight: 800;
+  font-family: 'San Francisco Bold', Arial, sans-serif;
+}
+
+b {
+  font-family: 'San Francisco Bold', Arial, sans-serif;
+}
+
+
+.historySection {
+  margin-bottom: 50px;
+  margin-left: -20px;
+}
+
+.historySection p {
+  font-size: 19px;
+}
+
+.historySection h3 {
+  margin-bottom: 15px;
+}
+
+.icons h3 {
+  margin-top: 40px;
+  font-size: 23px;
+}
+
+.icons p {
+  font-weight: 350;
+  font-size: 20px;
+  line-height: 1.381002381;
+}
+
 .poster {
     width: 100%;
     margin-top: 0px;
@@ -35,23 +84,24 @@ p {
 .des {
   margin-top:10px;
   margin-bottom: 30px;
-  font-family: 'Work Sans', sans-serif;
+  font-size: 18.5px;
 }
 
-.whoAreWe {
-  font-weight: bolder;
-}
 
 .logo {
   height: 50px;
-
   margin-left: 0px;
   margin-right: 13px;
+  margin-bottom: -25px;
 }
 
-.teul {
-  border: 0.2px solid rgb(207, 198, 198);
+
+.mainLogo {
+  height: 50px;
+  filter: invert(100%);
+  margin-right: 10px;
 }
+
 
 .header {
   text-align: center;
@@ -73,7 +123,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  width: 80%;
+  width: 70%;
   color: var(--bs-body-color) !important;
 }
 
@@ -98,11 +148,13 @@ p {
 
 .links button {
   display: inline-block;
-    justify-content: center;
-    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 300px;
   margin: 5px 5px;
-  font-family: 'Rowdies', cursive;
-
+text-align: center;
 }
 
 .links {
@@ -114,6 +166,11 @@ p {
   padding:0px;
 }
 
+.contact-des {
+  margin-top: -20px;
+  margin-bottom: -10px;
+  font-size: 21px;
+}
 
 .lil-logo {
   width: 30px;
@@ -146,12 +203,15 @@ p {
 
 
 
+
+
+
 #mission-card {
   margin-top:0px;
-  border-top: 3px solid rgb(89, 85, 145);
   width: 1000px;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
 }
 
 @media only screen and (max-width:1070px) {
@@ -167,6 +227,7 @@ p {
 .eboards {
 text-align: center;
 width: 90%;
+padding-left: 5px;
 margin-left: auto;
 margin-right: auto;
 }
@@ -174,11 +235,13 @@ margin-right: auto;
 #eboard {
   margin:30px;
   display: inline-block;
-  width: 210px;
+  width: 280px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 }
 
 .sms{
   text-align: center;
+  margin-top: 7px;
 }
 
 .sms div{
@@ -196,25 +259,47 @@ margin-right: auto;
   text-align: center;
   margin-top: 60px;
   margin-bottom: 30px;
-  font-family: 'Acme', sans-serif;
-
+  font-size: 35px;
 }
 
-h3 {
-  font-family: 'Amatic SC', cursive;
-}
 
 .whyList {
-  width: 700px;
+  padding-top: 30px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.whyList ul {
+  width: 95%;
   margin-left: auto;
   margin-right: auto;
 }
 
-@media only screen and (max-width:789px) {
+.whyList li {
+  font-size: 19.5px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.whyList h3 {
+  font-size: 21.5px;
+}
+
+@media only screen and (max-width:1000px) {
   .whyList {
-    margin-left: -6px;
-    width: 100%;
+
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -30px;
   }
+
+  .icons {
+    margin-bottom: -120px !important;
+  }
+
 
   .icons img {
     width: 40px;
@@ -222,8 +307,8 @@ h3 {
   }
   
   .icons p {
-    font-size: 14px;
-    margin-left: auto;
+    font-size: 20px;
+    width: 100%;
   }
 
   .icons h3 {
@@ -231,34 +316,44 @@ h3 {
   }
 
   .icons div {
-    width: 150px !important;
+    width: 100%;
   } 
 
 
   .links button{
-    width: 100px;
-    padding: 2px;
-    font-size: 10px;
+    width: 300px;
+    height: 45px;
+    padding: 5px;
+    font-size: 17px;
   }
 
   .links img {
     width:0px;
     display: none;
   }
+
+  .title {
+    margin-top: 130px;
+  }
+
+  .logo {
+    margin-bottom: 5px !important;
+  }
 }
 
 
 .card-img-top {
-  width: 208px;
+  width: 300px;
   height: 208px;
-  border-top: 3px solid rgb(85, 76, 163);
+  border-radius: 3px;
 }
 
 
 .card-text {
-  font-size: 14px;
+  font-size: 19.5px;
   margin-top:0px;
   margin-bottom: 10px;
+  font-weight: 350;
 }
 
 .dog {
@@ -322,6 +417,12 @@ iframe {
 .contact {
   margin-top:10px;
   text-align: center;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-radius: 5px;
+  padding-bottom: 40px;
 }
 
 .contact2 img{
@@ -346,6 +447,8 @@ iframe {
   text-align: left;
   margin-left: 80px;
   margin-right: auto;
+  font-size: 19px;
+  font-weight: 350;
 }
 
 .contact3 img {
@@ -368,20 +471,58 @@ iframe {
 
 .sponsor p, .sponsor ul {
   text-align: left;
-  width: 600px;
+  width: 700px;
   margin-left: auto;
   margin-right: auto;
-  
+}
+
+.sponsor p {
+  font-size: 21px;
+}
+.sponsor ul {
+  font-size: 18px;
+
+}
+
+#name {
+  font-size: 22px;
+  font-weight: 800;
+  font-family: 'San Francisco Bold', Arial, sans-serif;
+}
+
+#position {
+  font-weight: 600;
+  font-size: 16px !important;
+}
+
+#position, #major {
+  font-size: smaller;
+  margin-bottom: 0px;
+}
+
+#major {
+  font-size: 16px !important;
 }
 
 
-@media only screen and (max-width: 631px) {
+@media only screen and (max-width: 680px) {
+  .logo {
+    margin-bottom: 5px !important;
+  }
   .sponsor p{
     width: 95%;
   }
 
+  .contact {
+    width: 520px;
+  }
+
   .gang {
-    width: 95%;
+    width: 520px;
+  }
+
+  .contact-des {
+    width: 500px;
   }
 
   .contact2 {
@@ -389,12 +530,12 @@ iframe {
   }
 
   .contact3 p {
-    font-size: 12px;
+    font-size: 17px;
   }
 
   .contact3 img {
-    width: 28px;
-    height: 28px;
+    width: 33px;
+    height: 33px;
   }
 
   .contact3 {
@@ -403,7 +544,11 @@ iframe {
   }
 
   .contact3 p {
-    margin-left: 50px;
+    margin-left: 20px;
+  }
+
+  .sponsor ul {
+    width: 90%;
   }
 
 }
@@ -426,22 +571,41 @@ iframe {
     width: 320px;
     height: 320px;
   }
+
+  .contact {
+    width: 330px;
+  }
+
+  .gang {
+    width: 330px;
+  }
+
+  .contact-des {
+    width: 330px;
+  }
+
+  .contact3 img {
+    visibility: hidden;
+  }
+
+  .contact p {
+    margin-bottom: -10px;
+  }
+}
+
+.card-title {
+  font-size: 21.5px;
 }
 
 .title, p, img, .card-title, h3, h2 {
   overflow-y:hidden;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
 
 * {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
-}
-
-body {
-    font-family: 'Exo', sans-serif;
 }
 
 .context {
@@ -474,7 +638,7 @@ body {
   font-size: 30px !important;
   }
   .context p {
-    font-size: 15px;
+    font-size: 18px;
   }
 
  
@@ -483,11 +647,10 @@ body {
     height: 250px;
   }
 
+
   .area1 {
-    margin-bottom: 600px !important;
+    margin-bottom: 700px !important;
   }
-
-
 
 }
 
@@ -496,17 +659,15 @@ body {
   .context h1 {
     font-size: 25px !important;
   }
-  .context p {
-    font-size: 12px;
-  }
 }
 
 @media only screen and (max-width: 421px) {
   .context h1 {
     font-size: 20px !important;
   }
-  .context p {
-    font-size: 10px;
+
+  .mission {
+    margin-top: 100px !important;
   }
 }
 
@@ -641,6 +802,7 @@ body {
 .proj img {
   width: 350px;
   height: 350px;
+  border-radius: 5px;
 }
 
 .proj a {
@@ -657,29 +819,37 @@ body {
 .proj li {
   font-size: 15px;
   display: inline-block;
-  padding: 10px;
+  padding: 5px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+
 }
 
+.projDes {
+  padding: 10px;
+}
 .projHeader div {
   width: 100%;
   display: inline-block;
-  
 }
 
 .projDesDes {
   margin-top:-15px;
-  font-size: 110%;
+  font-size: 20px;
   width: 550px;
   float: left;
   text-align: left;
+  
 }
 
-@media only screen and (max-width: 550px) {
+
+@media only screen and (max-width: 600px) {
   .projDesDes {
     width: 100%;
   }
-
-
 
   .proj img {
     width:  350px;
@@ -767,11 +937,10 @@ body {
 
 h2 {
   text-align: left;
-  font-family : var(--title-font);
   margin-top:30px;
   margin-left: 0px;
-  font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 700;
+  font-size: 25px;
 }
 
 .history {
@@ -789,7 +958,7 @@ h2 {
 
 .rank {
 
-    font-size: 18px;
+    font-size: 21px;
 }
 
 .rank div {

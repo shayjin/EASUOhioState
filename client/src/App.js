@@ -32,7 +32,7 @@ function Welcome() {
             <img src={require('./sources/logo.png')} className='sipdug'></img>
           </div>
           <p className='des'>
-            <h5 class="whoAreWe">Who are we?: </h5> We are one of the largest Asian student organizations at The Ohio State University, 
+            <h3 class="whoAreWe">Who are we?</h3> We are one of the largest Asian student organizations at The Ohio State University, 
             proudly promoting diverse cultural events and pushing the boundaries on what it means to be an East Asian at The Ohio State University. 
           </p>
           <div className='links'>
@@ -50,7 +50,7 @@ function Welcome() {
             <Link to="/EASU/Events">
             <button class="btn btn-secondary">
               <img src={require('./sources/event.png')} className='lil-logo'/>
-                Check out upcoming events!
+                Check our previous events!
               </button>
             </Link>
 
@@ -79,7 +79,7 @@ function Event() {
     <>
       <div className='event'>
         <h3 className='title'>Upcoming Event</h3>
-        <img src={require('./sources/easucafe.png')} />
+        <img src={require('./sources/easc_film_screening.png')} />
 
       </div>
       <div className='links' ref={x}>
@@ -114,7 +114,7 @@ function WhyJoin() {
   var x = [];
 
   for (var i = 0; i < list.length; i++) {
-    x.push(<li><b>{list[i].type}:</b> {list[i].text}</li>);
+    x.push(<li><h3>{list[i].type}:</h3> <p>{list[i].text}</p></li>);
   }
 
   return (
@@ -135,17 +135,17 @@ function Icons() {
       <div className='icons'>
         <div>
           <img src={require('./sources/friend.png')}  className='logo'></img>
-          <h3>Make Friends</h3>
+          <h3>Make new friends</h3>
           <p>Experience the cultural exchange from the Ohio State community!</p>
         </div>
         <div>
           <img src={require('./sources/language.png')}  className='logo'></img>
-          <h3>Learn Languages</h3>
-          <p>Get one-on-one tutorial sessions for free!</p>
+          <h3>Learn new languages</h3>
+          <p>Get one-on-one tutorial sessions from native speakers for free!</p>
         </div>
         <div>
           <img src={require('./sources/calendar.png')}  className='logo'></img>
-          <h3>Events Calendar</h3>
+          <h3>Events calendar</h3>
           <p>Look up our fun upcoming events and mark your calendars! </p>
         </div>
       </div>
@@ -157,8 +157,8 @@ function Icons() {
 function Contact() {
   return (
     <div className='contact'>
-      <br/>
       <h3 className='title'>Contact Us</h3>
+      <br/>
       <p className='contact-des'>Have questions or need more information? Please feel free to contact us!</p>
       <div className='gang'>
         <div className='contact2'>
@@ -181,7 +181,7 @@ function Sponsor() {
       <div className='rank'>
         <div id="gold">Gold: Supplies</div>
         <div id="diamond">Diamond: $500+</div>
-        <div id="silver">Silver: $0+</div>
+        <div id="silver">Silver: {'< ' + '$500'}</div>
       </div>
       <img className="sponsorPic" src={require('./sources/laughingorge.png')}/>
       <p id="tlo">The Laughing Orge</p>
@@ -220,7 +220,6 @@ function Main() {
       <Mission />
       <WhyJoin />
       <Icons />
-      <Event />
       <EBoard />
       <Contact />
       <Sponsor />
@@ -238,7 +237,7 @@ function Mission() {
       <h3 className='title'>About EASU</h3>
       <div class="card" id="mission-card">
           <div class="card-body">
-            <h5 class="card-title">Our Mission</h5>
+            <h5 class="card-title"><b>Our Mission</b></h5>
             <p class="card-text">
               {missionStatement}
             </p>
@@ -252,16 +251,19 @@ function Mission() {
 function EBoard() {
   let eboards = [
     {name: "Jen Lim",
-    position: "President",
-    dog: require('./sources/dog_milk.png'),
-    major: "2nd Year Marketing",
+    position: "Founder / Co-President",
+    major: "3rd-year Information Systems",
     picture: require('./sources/jenny.png'),
     insta: "hyacinth._.ia"},
+    {name: "Derek Han",
+    position: "Co-President",
+    major: "3rd-year Industrial Engineering",
+    picture: require('./sources/derek.png'),
+    insta: "drek_han"},
     {
       name: "Jay Shin",
       position: "Vice President",
-      major: "3rd Year CSE",
-      dog: require('./sources/dog_blacksugar.png'),
+      major: "4th-year Computer Science",
       picture: require('./sources/jay.png'),
       insta: "shayjin33"
     },
@@ -269,42 +271,60 @@ function EBoard() {
       name: "James Ahn",
       position: "Treasurer",
       dog: require('./sources/dog_taro.png'),
-      major: "2nd Year ChemE",
+      major: "3rd-year Chemical Engineering",
       picture: require('./sources/윤기.png'),
       insta: "james.a_135"
     },
     {
       name: "Jiyun Lee",
-      position: "Strategic Management",
+      position: "Secretary / Outreach Chair",
       dog: require('./sources/dog_mango.png'),
-      major: "1st Year CSE",
+      major: "2nd-year Computer Science",
       picture: require('./sources/지윤.png'),
       insta: "jiyunl1"
     },
     {
-      name: "Jin Kim",
-      position: "Secretary",
-      dog: require('./sources/dog_nangman.png'),
-      major: "3rd Year Sports Industry",
-      picture: require('./sources/진성.png'),
-      insta: "j_kim185"
+      name: "Annabel Kim",
+      position: "Sponsor Relations",
+      major: "2nd-year ???",
+      picture: require('./sources/annabel.png'),
+      insta: "_annabelkim_"
     },
     {
       name: "Ella Lee",
-      position: "Media Chair",
-      dog: require('./sources/dog_matcha.png'),
-      major: "4th Year MIS",
+      position: "Design Chair Lead",
+      major: "5th-year Information Systems",
       picture: require('./sources/경민.png'),
       insta: "kyungminnx"
     },
     {
       name: "Minwoong Jeong",
-      position: "Event Chair",
-      dog: require('./sources/dog_strawberry.png'),
-      major: "3rd Year MechE",
+      position: "Event Chair Lead",
+      major: "4th-year Mechanical Engineering",
       picture: require('./sources/웅민.png'),
       insta: "minwoong.jeong"
-    }
+    },
+    {
+      name: "Wayne Chiang",
+      position: "Technology Chair",
+      major: "2nd-year Computer Science",
+      picture: require('./sources/wayne.png'),
+      insta: "waynechiang1030"
+    },
+    {
+      name: "Kelly Yan",
+      position: "Design Chair",
+      major: "4th-year Computer Science",
+      picture: require('./sources/kelly.png'),
+      insta: "k.kyan"
+    },
+    {
+      name: "James An",
+      position: "Event Chair",
+      major: "3rd-year ???",
+      picture: require('./sources/james2.png'),
+      insta: "ss_.jsn"
+    },
   ];
 
   let x = [];
@@ -316,10 +336,9 @@ function EBoard() {
       <div className="card" id="eboard">
       <img class="card-img-top" src={eboard.picture} alt="Card image cap"/>
       <div class="card-body">
-        <h5 class="card-title">{eboard.name}</h5>
-        <img className="dog" src={eboard.dog}></img>
-        <b><p class="card-text">{eboard.position}</p></b>
-        <p class="card-text">{eboard.major}</p>
+        <h5 class="card-title" id="name">{eboard.name}</h5>
+        <p class="card-text" id="position">{eboard.position}</p>
+        <p class="card-text" id="major">{eboard.major}</p>
         <div className="sms">
           <div>
             <a href={instaLink} target="_blank"><img src={require('./sources/instagram.png')}></img></a>

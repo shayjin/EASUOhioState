@@ -194,14 +194,17 @@ function Sponsor() {
         <li>- Keeping this website up</li>
       </ul>
       <div className='links'>
-            <a href="https://forms.gle/C1wLxnz76b3jXrzVA" target="_blank">
+            <a href="https://docs.google.com/forms/d/1F8OSYOSzgCNrT21mvEL396euOkDWdE8K66LtfEKLMCE/viewform?edit_requested=true#settings" target="_blank">
               <button class="btn btn-secondary">
                 <img src={require('./sources/business.png')} className='lil-logo'/>Supply Donation
               </button>
             </a>
-            <button class="btn btn-secondary">
-              <img src={require('./sources/individual.png')} className='lil-logo'/>Sponsorship
-            </button>
+            <a href="https://account.venmo.com/u/James_A_135" target="_blank">
+              <button class="btn btn-secondary">
+                <img src={require('./sources/individual.png')} className='lil-logo'/>Sponsorship
+              </button>
+            </a>
+
           </div>
 
     </div>

@@ -11,12 +11,12 @@
 
 @font-face {
   font-family: 'San Francisco';
-  src: url('SF-Pro-Display-Regular.ttf') format('truetype');
+  src: url('../FontsFree-Net-SFProDisplay-Regular.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'San Francisco Bold';
-  src: url('SF-Pro-Display-Regular.ttf') format('truetype');
+  src: url('../FontsFree-Net-SFProDisplay-Regular.ttf') format('truetype');
 }
 
 body {

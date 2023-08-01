@@ -11,6 +11,36 @@ import SponsorInfo from "./DB/SponsorInfo";
 import THREE_ICONS from "./DB/Three_Icons";
 import FLOATING_SQUARE_NUM from "./DB/FloatingSquareNum";
 
+function Main() {
+  return (
+    <>
+      <Navbar />
+      <Welcome />
+      <Mission />
+      <WhyJoin />
+      <Icons />
+      <EBoard />
+      <Contact />
+      <Sponsor />
+    </>
+  );
+}
+
+function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/EASU" element={<Main />} />
+        <Route path="" element={<Main />} />
+        <Route path="*" element={<p>Path not resolved</p>} />
+        <Route path="/EASU/Events" element={<Events/>}></Route>
+        <Route path="/EASU/Gallery" element={<Gallery/>}></Route>
+        <Route path="/EASU/History" element={<History/>}></Route>
+      </Routes> 
+    </BrowserRouter>
+  );
+}
+
 function Welcome() {
   var circles = [];
   
@@ -38,7 +68,7 @@ function Welcome() {
                   <img src={require("./sources/discord.png")} className="lil-logo"/>Join EASU's GroupMe!
                 </button>
               </a>
-              <a href="https://www.instagram.com/feasu_osu/" target="_blank">
+              <a href="https://www.instagram.com/easu_osu/" target="_blank">
                 <button class="btn btn-secondary">
                   <img src={require("./sources/instagram.png")} className="lil-logo"/>Follow us on Instagram!
                 </button>
@@ -240,36 +270,6 @@ function EBoard() {
         {x}
       </div>
     </>
-  );
-}
-
-function Main() {
-  return (
-    <>
-      <Navbar />
-      <Welcome />
-      <Mission />
-      <WhyJoin />
-      <Icons />
-      <EBoard />
-      <Contact />
-      <Sponsor />
-    </>
-  );
-}
-
-function App() {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/EASU" element={<Main />} />
-        <Route path="" element={<Main />} />
-        <Route path="*" element={<p>Path not resolved</p>} />
-        <Route path="/EASU/Events" element={<Events/>}></Route>
-        <Route path="/EASU/Gallery" element={<Gallery/>}></Route>
-        <Route path="/EASU/History" element={<History/>}></Route>
-      </Routes> 
-    </BrowserRouter>
   );
 }
 

@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.1ed300f3.css",
-    "main.js": "/static/js/main.02608600.js",
+    "main.css": "/static/css/main.a3338c96.css",
+    "main.js": "/static/js/main.bff909fb.js",
     "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
     "static/media/eboard2324.png": "/static/media/eboard2324.01d2bdef163fc7b9359f.png",
-    "static/media/1st-gbm.png": "/static/media/1st-gbm.4161e1352bda1ea70e5a.png",
+    "static/media/1st_gbm.png": "/static/media/1st_gbm.4161e1352bda1ea70e5a.png",
     "static/media/easucafe.png": "/static/media/easucafe.209469a7a5613db77a4b.png",
     "static/media/fundraiser.png": "/static/media/fundraiser.468bd31b6da085d81925.png",
     "static/media/경민.png": "/static/media/경민.1e171fc99914ef735c99.png",
     "static/media/easc_film_screening.png": "/static/media/easc_film_screening.5de4cd4ce5d6f6714f8e.png",
-    "static/media/SF-Pro-Display-Regular.ttf": "/static/media/SF-Pro-Display-Regular.67a29aa05d5c9a60406f.ttf",
+    "static/media/FontsFree-Net-SFProDisplay-Regular.ttf": "/static/media/FontsFree-Net-SFProDisplay-Regular.1e1c0e29b79b49a6ff4d.ttf",
     "static/media/진성.png": "/static/media/진성.38dfbce928b204623c4c.png",
-    "static/media/merchevent.png": "/static/media/merchevent.f462191315cfd17b8bde.png",
+    "static/media/merch_event.png": "/static/media/merch_event.f462191315cfd17b8bde.png",
     "static/media/jenny.png": "/static/media/jenny.9a27d91de8e1d5a48127.png",
     "static/media/윤기.png": "/static/media/윤기.00854433bb46a2de3ed8.png",
     "static/media/laughingorge.png": "/static/media/laughingorge.5aaa0c2fa9bd3b9c8037.png",
@@ -43,12 +43,12 @@
     "static/media/calendar.png": "/static/media/calendar.fcb59f6638e1c3e6d136.png",
     "static/media/씹덕.png": "/static/media/씹덕.5f7e5afb39c248ae3dad.png",
     "index.html": "/index.html",
-    "main.1ed300f3.css.map": "/static/css/main.1ed300f3.css.map",
-    "main.02608600.js.map": "/static/js/main.02608600.js.map",
+    "main.a3338c96.css.map": "/static/css/main.a3338c96.css.map",
+    "main.bff909fb.js.map": "/static/js/main.bff909fb.js.map",
     "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ed300f3.css",
-    "static/js/main.02608600.js"
+    "static/css/main.a3338c96.css",
+    "static/js/main.bff909fb.js"
   ]
 }

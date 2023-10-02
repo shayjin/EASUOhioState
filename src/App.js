@@ -188,8 +188,20 @@ function Sponsor() {
         <div id="diamond">Diamond: {SponsorInfo.diamond}</div>
         <div id="silver">Silver: {SponsorInfo.silver}</div>
       </div>
-      <img className="sponsorPic" src={require("./sources/laughingorge.png")}/>
-      <p id="tlo">The Laughing Orge</p>
+      <div className="sponsorList">
+        <div class="sponsor">
+          <img className="sponsorPic" src={require("./sources/laughingorge.png")} alt="The Laughing Orge"/>
+          <p class="sponsorText" id="gold">The Laughing Orge</p>
+        </div>
+        <div class="sponsor">
+          <img className="sponsorPic" src={require("./sources/bellesbread.png")} alt="Belle's Bread"/>
+          <p class="sponsorText" id="silver">Belle's Bread</p>
+        </div>
+        <div class="sponsor">
+          <img className="sponsorPic" src={require("./sources/teazone.png")} alt="Tea Zone Bakery & Cafe"/>
+          <p class="sponsorText" id="silver">Tea Zone Bakery & Cafe</p>
+        </div>
+      </div>
       <p>
         Thank you so much for your interest in supporting EASU. We rely on your donations to pay for...
       </p>

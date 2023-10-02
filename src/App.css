@@ -467,11 +467,10 @@ iframe {
 
 .sponsor {
   text-align: center;
-  margin-bottom: 100px;
+  margin-bottom: 30px;
 }
 
 .sponsor p, .sponsor ul {
-  text-align: left;
   width: 700px;
   margin-left: auto;
   margin-right: auto;
@@ -480,9 +479,35 @@ iframe {
 .sponsor p {
   font-size: 21px;
 }
+
 .sponsor ul {
   font-size: 18px;
+}
 
+.sponsorList {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+}
+
+.sponsor {
+}
+
+.sponsorList p {
+  width: 300px !important;
+}
+
+
+.sponsor {
+  text-align: center; /* Center-align the content */
+}
+
+.sponsorPic {
+
+}
+
+.sponsorText {
+  text-align: center; /* Center-align the text */
 }
 
 #name {

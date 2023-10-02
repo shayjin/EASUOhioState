@@ -1,5 +1,45 @@
 const EVENTS = [
     {
+        title: "Trivia Night", 
+        type: "09/27/2023", 
+        pic: "trivianight",
+        des: [
+            "🌏🤓 Get ready for a night of East Asian knowledge and delicious rewards! 🥖🏆 Join us for EASU's Trivia Night and put your East Asian expertise to the test! 🌟 "
+        ]
+    },
+    {
+        title: "Language Night", 
+        type: "09/16/2023", 
+        pic: "langnight",
+        des: [
+            "Are you ready to embark on an exciting adventure of cultural exchange and language exploration? 🌐✨ Whether you're eager to learn a new language or share your language skills with others, EASU Language Night is the perfect platform for you!"
+        ]
+    },
+    {
+        title: "AU23 1st GBM Meeting", 
+        type: "08/30/2023", 
+        pic: "1stgbm",
+        des: [
+            "🎉 Hey there, East Asian Student Union fam! 🎊 Hope you're all as excited as we are about the start of this new semester 📚✨ What better way to kick things off than by joining us at the 1st General Body Meeting of EASU? 🤝🌟"
+        ]
+    },
+    {
+        title: "Ohio State Involvement Fair", 
+        type: "08/20/2023", 
+        pic: "invfair",
+        des: [
+            "Join us at the Involvement Fair this Sunday, August 20th, from 4pm to 7pm! 📅🕓 Come visit our table, #225, and get to know the vibrant community of the East Asian Student Union (EASU)! 🌟 See you there! 👋🤝"
+        ]
+    },
+    {
+        title: "TwoJins Performance @ Nextragavanza", 
+        type: "04/15/2023", 
+        pic: "nextravaganza",
+        des: [
+            "TwoJins (Jin Kim and Jay Shin) was invited to perform their original song at Ohio State's dance crew NEX+ CREW's annnual show, Nextragavanza. "
+        ]
+    },
+    {
         title: "EASC Film Screening", 
         type: "04/15/2023", 
         pic: "easc_film_screening",

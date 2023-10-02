@@ -1,14 +1,14 @@
 let Eboard = [
     {
         name: "Jen Lim",
-        position: "Co-President",
+        position: "President",
         major: "3rd-year Marketing",
         picture: require("../sources/jenny.png"),
         insta: "hyacinth._.ia"
     },
     {
         name: "Derek Han",
-        position: "Co-President",
+        position: "Student Advisor",
         major: "3rd-year Industrial Engineering",
         picture: require("../sources/derek.png"),
         insta: "drek_han"
@@ -18,7 +18,7 @@ let Eboard = [
       position: "Vice President",
       major: "4th-year Computer Science",
       picture: require("../sources/jay.png"),
-      insta: "shayjin33"
+      insta: "shayjin_"
     },
     {
       name: "James Ahn",
@@ -72,7 +72,7 @@ let Eboard = [
     {
       name: "James An",
       position: "Event Chair",
-      major: "3rd-year ???",
+      major: "4th-year Biology",
       picture: require("../sources/james2.png"),
       insta: "ss_.jsn"
     },

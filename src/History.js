@@ -10,11 +10,11 @@ export const History = () => {
             board: [
                 {
                     name: "Jenny Lim",
-                    position: "Co-President"
+                    position: "President"
                 }, 
                 {
                     name: "Derek Han",
-                    position: "Co-President"
+                    position: "Student Advisor"
                 }, 
                 {
                     name: "Jay Shin",

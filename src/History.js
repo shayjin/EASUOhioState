@@ -88,7 +88,11 @@ export const History = () => {
             ]
         }
     ];
+    
 
+
+
+    
     var list = [];
     var list2 = [];
     for (var i = 0; i < h.length; i++) {
@@ -100,9 +104,6 @@ export const History = () => {
         list2.push(<div className='historySection'>{list}</div>);
         list = [];
     }
-
-
-
 
     list.push('</div>');
     return (

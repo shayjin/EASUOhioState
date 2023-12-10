@@ -88,11 +88,7 @@ export const History = () => {
             ]
         }
     ];
-    
-
-
-
-    
+    // change    
     var list = [];
     var list2 = [];
     for (var i = 0; i < h.length; i++) {

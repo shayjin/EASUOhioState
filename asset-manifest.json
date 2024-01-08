@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.15bbf697.css",
-    "main.js": "/static/js/main.42a51df0.js",
+    "main.js": "/static/js/main.7a38d4dc.js",
     "static/js/787.d5fa4d18.chunk.js": "/static/js/787.d5fa4d18.chunk.js",
     "static/media/invfair.png": "/static/media/invfair.6a92735901a85c8dea76.png",
     "static/media/langnight.png": "/static/media/langnight.db678f6e2d5929627679.png",
@@ -26,6 +26,7 @@
     "static/media/wayne.png": "/static/media/wayne.c325a9c2db54f9a50bbc.png",
     "static/media/bellesbread.png": "/static/media/bellesbread.27e0e610445b194d4b41.png",
     "static/media/dog_blacksugar.png": "/static/media/dog_blacksugar.b57ce0099ad4c45f3b79.png",
+    "static/media/newlogo.png": "/static/media/newlogo.b507663f77326b1bee8d.png",
     "static/media/dog_strawberry.png": "/static/media/dog_strawberry.349f815380697b8e71a2.png",
     "static/media/dog_mango.png": "/static/media/dog_mango.d2fd022e1230e74a1575.png",
     "static/media/dog_matcha.png": "/static/media/dog_matcha.d494f648bf4b72635b04.png",
@@ -51,11 +52,11 @@
     "static/media/씹덕.png": "/static/media/씹덕.5f7e5afb39c248ae3dad.png",
     "index.html": "/index.html",
     "main.15bbf697.css.map": "/static/css/main.15bbf697.css.map",
-    "main.42a51df0.js.map": "/static/js/main.42a51df0.js.map",
+    "main.7a38d4dc.js.map": "/static/js/main.7a38d4dc.js.map",
     "787.d5fa4d18.chunk.js.map": "/static/js/787.d5fa4d18.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.15bbf697.css",
-    "static/js/main.42a51df0.js"
+    "static/js/main.7a38d4dc.js"
   ]
 }

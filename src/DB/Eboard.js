@@ -15,8 +15,6 @@ let Eboard = [
       picture: require("../sources/지윤.png"),
       insta: "jiyunl1"
     },
-    
-    
     {
       name: "Wayne Chiang",
       position: "Technology Chair",
@@ -39,7 +37,7 @@ let Eboard = [
       major: "3th-year Biology",
       picture: require("../sources/james2.png"),
       insta: "ss_.jsn"
-    },
+    }
 ];
 
 export default Eboard;

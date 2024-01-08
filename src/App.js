@@ -168,11 +168,11 @@ function Contact() {
       <p className="contact-des">Have questions or need more information? Please feel free to contact us!</p>
       <div className="gang">
         <div className="contact2">
-          <img src={require("./sources/logo.png")}/>
+          <img src={require("./sources/newlogo.png")}/>
         </div>
         <div className="contact3">
-          <p><img src={require("./sources/user.png")}/>Jen Lim</p>
-          <p><img src={require("./sources/email.png")}/>lim.1370@osu.edu</p>
+          <p><img src={require("./sources/user.png")}/>Jiyun Lee</p>
+          <p><img src={require("./sources/email.png")}/>lee.10302@osu.edu</p>
         </div>
       </div>
     </div>

@@ -19,7 +19,7 @@ let Eboard = [
       name: "James An",
       position: "Event Chair",
       major: "4th-year Biology",
-      picture: require("../sources/jamesan_sp24.png"),
+      picture: require("../sources/jamesan_sp24.jpg"),
       insta: "ss_.jsn"
     },
 
@@ -82,7 +82,7 @@ let Eboard = [
       name: "Eunice Kim",
       position: "Secretary",
       major: "3rd-year Psycology / Minor in Korean",
-      picture: require("../sources/eunice_sp24.jpg"),
+      picture: require("../sources/eunice_sp24.png"),
       insta: "eunicce.kim"
     }
 

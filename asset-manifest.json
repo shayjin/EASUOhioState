@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.15bbf697.css",
-    "main.js": "/static/js/main.596fb120.js",
+    "main.js": "/static/js/main.42a51df0.js",
     "static/js/787.d5fa4d18.chunk.js": "/static/js/787.d5fa4d18.chunk.js",
     "static/media/invfair.png": "/static/media/invfair.6a92735901a85c8dea76.png",
     "static/media/langnight.png": "/static/media/langnight.db678f6e2d5929627679.png",
@@ -51,11 +51,11 @@
     "static/media/씹덕.png": "/static/media/씹덕.5f7e5afb39c248ae3dad.png",
     "index.html": "/index.html",
     "main.15bbf697.css.map": "/static/css/main.15bbf697.css.map",
-    "main.596fb120.js.map": "/static/js/main.596fb120.js.map",
+    "main.42a51df0.js.map": "/static/js/main.42a51df0.js.map",
     "787.d5fa4d18.chunk.js.map": "/static/js/787.d5fa4d18.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.15bbf697.css",
-    "static/js/main.596fb120.js"
+    "static/js/main.42a51df0.js"
   ]
 }

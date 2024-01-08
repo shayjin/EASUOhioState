@@ -4,14 +4,14 @@ let Eboard = [
       name: "Jiyun Lee",
       position: "President",
       major: "2nd-year Computer Science",
-      picture: require("../sources/지윤.png"),
+      picture: require("../sources/jiyun_sp24.png"),
       insta: "jiyunl1"
     },
     {
       name: "James Ahn",
       position: "Vice President",
       major: "3rd-year Chemical Engineering",
-      picture: require("../sources/윤기.png"),
+      picture: require("../sources/jamesahn_sp24.png"),
       insta: "james.a_135"
     },
 
@@ -19,7 +19,7 @@ let Eboard = [
       name: "James An",
       position: "Event Chair",
       major: "4th-year Biology",
-      picture: require("../sources/james2.png"),
+      picture: require("../sources/jamesan_sp24.png"),
       insta: "ss_.jsn"
     },
 
@@ -27,7 +27,7 @@ let Eboard = [
       name: "Wayne Chiang",
       position: "Technology Chair",
       major: "2nd-year Computer Science",
-      picture: require("../sources/wayne.png"),
+      picture: require("../sources/wayne_sp24.jpg"),
       insta: "waynechiang1030"
     },
 
@@ -43,7 +43,7 @@ let Eboard = [
       name: "Vienna Thai",
       position: "Treasurer",
       major: "2nd-year Finance",
-      picture: require("../sources/지윤.png"),
+      picture: require("../sources/james2.png"),
       insta: "--"
     },
 
@@ -51,7 +51,7 @@ let Eboard = [
       name: "Vivian Qian",
       position: "Event team",
       major: "2nd-year Computer Science",
-      picture: require("../sources/wayne.png"),
+      picture: require("../sources/vivian_sp24.jpg"),
       insta: "vexists"
     },
     
@@ -59,7 +59,7 @@ let Eboard = [
       name: "Yuting Che",
       position: "Outreach team",
       major: "2nd-year Computer Science",
-      picture: require("../sources/james2.png"),
+      picture: require("../sources/yuting_sp24.jpg"),
       insta: "yutingche0805"
     },
 
@@ -75,14 +75,14 @@ let Eboard = [
       name: "Alicia Ping",
       position: "Design team",
       major: "2nd-year Computer Science",
-      picture: require("../sources/james2.png"),
+      picture: require("../sources/alicia_sp24.JPG"),
       insta: "almostalwaysalicia"
     },
     {
       name: "Eunice Kim",
       position: "Secretary",
       major: "3rd-year Psycology / Minor in Korean",
-      picture: require("../sources/james2.png"),
+      picture: require("../sources/eunice_sp24.jpg"),
       insta: "eunicce.kim"
     }
 

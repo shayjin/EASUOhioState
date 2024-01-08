@@ -56,7 +56,7 @@ function Welcome() {
           <div className="header-text">
             <h1 className="header"> East Asian Student Union @ Ohio State</h1>
             <div className="pic">
-              <img src={require("./sources/logo.png")} className="sipdug"></img>
+              <img src={require("./sources/newlogo.png")} className="sipdug"></img>
             </div>
             <p className="des">
               <h3 class="whoAreWe">Who are we?</h3> We are one of the largest Asian student organizations at The Ohio State University, 

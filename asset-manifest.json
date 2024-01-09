@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.15bbf697.css",
-    "main.js": "/static/js/main.baccb367.js",
+    "main.js": "/static/js/main.7025b303.js",
     "static/js/787.d5fa4d18.chunk.js": "/static/js/787.d5fa4d18.chunk.js",
     "static/media/alicia_sp24.JPG": "/static/media/alicia_sp24.6fa2bd26ed8ea9bdd4e0.JPG",
     "static/media/invfair.png": "/static/media/invfair.6a92735901a85c8dea76.png",
@@ -10,6 +10,7 @@
     "static/media/eboard2324.png": "/static/media/eboard2324.01d2bdef163fc7b9359f.png",
     "static/media/1st_gbm.png": "/static/media/1st_gbm.4161e1352bda1ea70e5a.png",
     "static/media/trivianight.png": "/static/media/trivianight.db8511faad397901a96b.png",
+    "static/media/kristine_sp24.jpg": "/static/media/kristine_sp24.7051acc3fb7fb5fefd45.jpg",
     "static/media/jamesan_sp24.jpg": "/static/media/jamesan_sp24.6dd62a2a152668295a84.jpg",
     "static/media/wayne_sp24.jpg": "/static/media/wayne_sp24.ac2a6115ec7526703d48.jpg",
     "static/media/easucafe.png": "/static/media/easucafe.209469a7a5613db77a4b.png",
@@ -60,11 +61,11 @@
     "static/media/씹덕.png": "/static/media/씹덕.5f7e5afb39c248ae3dad.png",
     "index.html": "/index.html",
     "main.15bbf697.css.map": "/static/css/main.15bbf697.css.map",
-    "main.baccb367.js.map": "/static/js/main.baccb367.js.map",
+    "main.7025b303.js.map": "/static/js/main.7025b303.js.map",
     "787.d5fa4d18.chunk.js.map": "/static/js/787.d5fa4d18.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.15bbf697.css",
-    "static/js/main.baccb367.js"
+    "static/js/main.7025b303.js"
   ]
 }

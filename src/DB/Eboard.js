@@ -67,7 +67,7 @@ let Eboard = [
       name: "Kristine Zhong",
       position: "Outreach team",
       major: "2nd-year Business",
-      picture: require("../sources/james2.png"),
+      picture: require("../sources/kristine_sp24.jpg"),
       insta: "kristinez_11"
     },
 

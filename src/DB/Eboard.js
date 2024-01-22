@@ -35,7 +35,7 @@ let Eboard = [
       name: "Joshua Baek",
       position: "Sponsorship Chair",
       major: "3rd-year Pharmacy",
-      picture: require("../sources/james2.png"),
+      picture: require("../sources/josh_sp24.jpg"),
       insta: "josh._.baek"
     },
     
@@ -43,7 +43,7 @@ let Eboard = [
       name: "Vienna Thai",
       position: "Treasurer",
       major: "2nd-year Finance",
-      picture: require("../sources/james2.png"),
+      picture: require("../sources/vienna_sp24.jpg"),
       insta: "--"
     },
 

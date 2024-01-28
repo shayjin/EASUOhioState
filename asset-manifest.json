@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.15bbf697.css",
-    "main.js": "/static/js/main.2efc2886.js",
+    "main.css": "/static/css/main.19e7375a.css",
+    "main.js": "/static/js/main.664980d0.js",
     "static/js/787.d5fa4d18.chunk.js": "/static/js/787.d5fa4d18.chunk.js",
     "static/media/alicia_sp24.JPG": "/static/media/alicia_sp24.6fa2bd26ed8ea9bdd4e0.JPG",
     "static/media/invfair.png": "/static/media/invfair.6a92735901a85c8dea76.png",
@@ -19,7 +19,7 @@
     "static/media/fundraiser.png": "/static/media/fundraiser.468bd31b6da085d81925.png",
     "static/media/josh_sp24.jpg": "/static/media/josh_sp24.b5f9fe0c56c97b189505.jpg",
     "static/media/vienna_sp24.jpg": "/static/media/vienna_sp24.997d3cd1f3631787992b.jpg",
-    "static/media/yuting_sp24.jpg": "/static/media/yuting_sp24.513bcca4017d91545b5c.jpg",
+    "static/media/yuting_sp24_2.jpg": "/static/media/yuting_sp24_2.0aed0ce02a141af66e29.jpg",
     "static/media/jiyun_sp24.png": "/static/media/jiyun_sp24.6d44d9ef579a53fdee96.png",
     "static/media/경민.png": "/static/media/경민.1e171fc99914ef735c99.png",
     "static/media/vivian_sp24.jpg": "/static/media/vivian_sp24.54dd0f7cd246191695b5.jpg",
@@ -62,12 +62,12 @@
     "static/media/calendar.png": "/static/media/calendar.fcb59f6638e1c3e6d136.png",
     "static/media/씹덕.png": "/static/media/씹덕.5f7e5afb39c248ae3dad.png",
     "index.html": "/index.html",
-    "main.15bbf697.css.map": "/static/css/main.15bbf697.css.map",
-    "main.2efc2886.js.map": "/static/js/main.2efc2886.js.map",
+    "main.19e7375a.css.map": "/static/css/main.19e7375a.css.map",
+    "main.664980d0.js.map": "/static/js/main.664980d0.js.map",
     "787.d5fa4d18.chunk.js.map": "/static/js/787.d5fa4d18.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.15bbf697.css",
-    "static/js/main.2efc2886.js"
+    "static/css/main.19e7375a.css",
+    "static/js/main.664980d0.js"
   ]
 }

@@ -59,7 +59,7 @@ let Eboard = [
       name: "Yuting Che",
       position: "Outreach team",
       major: "2nd-year Computer Science",
-      picture: require("../sources/yuting_sp24.jpg"),
+      picture: require("../sources/yuting_sp24_2.jpg"),
       insta: "yutingche0805"
     },
 

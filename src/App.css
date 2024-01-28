@@ -344,8 +344,9 @@ margin-right: auto;
 
 
 .card-img-top {
-  width: 300px;
+  width: 100%;
   height: 208px;
+  object-fit: cover; /* Maintain the image aspect ratio and cover the container */
   border-radius: 3px;
 }
 

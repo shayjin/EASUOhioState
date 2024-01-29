@@ -7,7 +7,6 @@ import { Navbar } from "./Navbar";
 import { useRef } from "react";
 import Eboard from "./DB/Eboard";
 import WhyJoinList from "./DB/WhyJoinList";
-import SponsorInfo from "./DB/SponsorInfo";
 import THREE_ICONS from "./DB/Three_Icons";
 import FLOATING_SQUARE_NUM from "./DB/FloatingSquareNum";
 
@@ -184,9 +183,6 @@ function Sponsor() {
     <div className="sponsor">
       <h3 className="title">Sponsor</h3>
       <div className="rank">
-        <div id="gold">Gold: {SponsorInfo.gold}</div>
-        <div id="diamond">Diamond: {SponsorInfo.diamond}</div>
-        <div id="silver">Silver: {SponsorInfo.silver}</div>
       </div>
       <div className="sponsorList">
         <div class="sponsor">
@@ -194,8 +190,12 @@ function Sponsor() {
           <p class="sponsorText" id="gold">The Laughing Orge</p>
         </div>
         <div class="sponsor">
+          <img className="sponsorPic" src={require("./sources/kair_salon.png")} alt="Kair Salon"/>
+          <p class="sponsorText" id="gold">Kair Salon</p>
+        </div>
+        <div class="sponsor">
           <img className="sponsorPic" src={require("./sources/bellesbread.png")} alt="Belle's Bread"/>
-          <p class="sponsorText" id="silver">Belle's Bread</p>
+          <p class="sponsorText" id="diamond">Belle's Bread</p>
         </div>
         <div class="sponsor">
           <img className="sponsorPic" src={require("./sources/teazone.png")} alt="Tea Zone Bakery & Cafe"/>

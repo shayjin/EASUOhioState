@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.19e7375a.css",
-    "main.js": "/static/js/main.664980d0.js",
+    "main.js": "/static/js/main.0fe1b06b.js",
     "static/js/787.d5fa4d18.chunk.js": "/static/js/787.d5fa4d18.chunk.js",
     "static/media/alicia_sp24.JPG": "/static/media/alicia_sp24.6fa2bd26ed8ea9bdd4e0.JPG",
     "static/media/invfair.png": "/static/media/invfair.6a92735901a85c8dea76.png",
@@ -16,6 +16,7 @@
     "static/media/easucafe.png": "/static/media/easucafe.209469a7a5613db77a4b.png",
     "static/media/nextravaganza.png": "/static/media/nextravaganza.4db8b39b42c744c2a552.png",
     "static/media/eunice_sp24.png": "/static/media/eunice_sp24.8d0098de6bcff0407bb4.png",
+    "static/media/kair_salon.png": "/static/media/kair_salon.2b92e1530695ce8a05f3.png",
     "static/media/fundraiser.png": "/static/media/fundraiser.468bd31b6da085d81925.png",
     "static/media/josh_sp24.jpg": "/static/media/josh_sp24.b5f9fe0c56c97b189505.jpg",
     "static/media/vienna_sp24.jpg": "/static/media/vienna_sp24.997d3cd1f3631787992b.jpg",
@@ -63,11 +64,11 @@
     "static/media/씹덕.png": "/static/media/씹덕.5f7e5afb39c248ae3dad.png",
     "index.html": "/index.html",
     "main.19e7375a.css.map": "/static/css/main.19e7375a.css.map",
-    "main.664980d0.js.map": "/static/js/main.664980d0.js.map",
+    "main.0fe1b06b.js.map": "/static/js/main.0fe1b06b.js.map",
     "787.d5fa4d18.chunk.js.map": "/static/js/787.d5fa4d18.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.19e7375a.css",
-    "static/js/main.664980d0.js"
+    "static/js/main.0fe1b06b.js"
   ]
 }

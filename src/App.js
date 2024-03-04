@@ -201,6 +201,11 @@ function Sponsor() {
           <img className="sponsorPic" src={require("./sources/teazone.png")} alt="Tea Zone Bakery & Cafe"/>
           <p class="sponsorText" id="silver">Tea Zone Bakery & Cafe</p>
         </div>
+        <div class="sponsor">
+          <img className="sponsorPic" src={require("./sources/KittyBubble.png")} height={180} alt="Kitty Bubble cafe & bar"/>
+          <p class="sponsorText" id="diamond">Kitty Bubble cafe & bar</p>
+        </div>
+
       </div>
       <p>
         Thank you so much for your interest in supporting EASU. We rely on your donations to pay for...

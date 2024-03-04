@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.19e7375a.css",
-    "main.js": "/static/js/main.0fe1b06b.js",
+    "main.js": "/static/js/main.3e88126c.js",
     "static/js/787.d5fa4d18.chunk.js": "/static/js/787.d5fa4d18.chunk.js",
     "static/media/alicia_sp24.JPG": "/static/media/alicia_sp24.6fa2bd26ed8ea9bdd4e0.JPG",
     "static/media/invfair.png": "/static/media/invfair.6a92735901a85c8dea76.png",
@@ -30,6 +30,7 @@
     "static/media/진성.png": "/static/media/진성.38dfbce928b204623c4c.png",
     "static/media/merch_event.png": "/static/media/merch_event.f462191315cfd17b8bde.png",
     "static/media/jenny.png": "/static/media/jenny.9a27d91de8e1d5a48127.png",
+    "static/media/KittyBubble.png": "/static/media/KittyBubble.7013bdd0eee77ca4eb96.png",
     "static/media/윤기.png": "/static/media/윤기.00854433bb46a2de3ed8.png",
     "static/media/laughingorge.png": "/static/media/laughingorge.5aaa0c2fa9bd3b9c8037.png",
     "static/media/jay.png": "/static/media/jay.0d40ff9ee21d2218d92d.png",
@@ -64,11 +65,11 @@
     "static/media/씹덕.png": "/static/media/씹덕.5f7e5afb39c248ae3dad.png",
     "index.html": "/index.html",
     "main.19e7375a.css.map": "/static/css/main.19e7375a.css.map",
-    "main.0fe1b06b.js.map": "/static/js/main.0fe1b06b.js.map",
+    "main.3e88126c.js.map": "/static/js/main.3e88126c.js.map",
     "787.d5fa4d18.chunk.js.map": "/static/js/787.d5fa4d18.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.19e7375a.css",
-    "static/js/main.0fe1b06b.js"
+    "static/js/main.3e88126c.js"
   ]
 }

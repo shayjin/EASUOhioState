@@ -202,7 +202,7 @@ function Sponsor() {
           <p class="sponsorText" id="silver">Tea Zone Bakery & Cafe</p>
         </div>
         <div class="sponsor">
-          <img className="sponsorPic" src={require("./sources/KittyBubble.png")} height={180} alt="Kitty Bubble cafe & bar"/>
+          <img className="sponsorPic" src={require("./sources/KittyBubble.png")} height={180} npmalt="Kitty Bubble cafe & bar"/>
           <p class="sponsorText" id="diamond">Kitty Bubble cafe & bar</p>
         </div>
 

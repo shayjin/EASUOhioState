@@ -170,8 +170,8 @@ function Contact() {
           <img src={require("./sources/newlogo.png")}/>
         </div>
         <div className="contact3">
-          <p><img src={require("./sources/user.png")}/>Jiyun Lee</p>
-          <p><img src={require("./sources/email.png")}/>lee.10302@osu.edu</p>
+          <p><img src={require("./sources/user.png")}/>James Ahn</p>
+          <p><img src={require("./sources/email.png")}/>easuohiostate@gmail.com</p>
         </div>
       </div>
     </div>

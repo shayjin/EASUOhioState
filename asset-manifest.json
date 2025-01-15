@@ -1,9 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.19e7375a.css",
-    "main.js": "/static/js/main.1cd601ae.js",
-    "static/js/787.d5fa4d18.chunk.js": "/static/js/787.d5fa4d18.chunk.js",
-    "static/media/alicia_sp24.JPG": "/static/media/alicia_sp24.6fa2bd26ed8ea9bdd4e0.JPG",
+    "main.js": "/static/js/main.bc549f6c.js",
+    "static/js/453.258b012d.chunk.js": "/static/js/453.258b012d.chunk.js",
     "static/media/invfair.png": "/static/media/invfair.6a92735901a85c8dea76.png",
     "static/media/langnight.png": "/static/media/langnight.db678f6e2d5929627679.png",
     "static/media/1stgbm.png": "/static/media/1stgbm.a773d8c938f51ecf6271.png",
@@ -11,7 +10,6 @@
     "static/media/1st_gbm.png": "/static/media/1st_gbm.4161e1352bda1ea70e5a.png",
     "static/media/trivianight.png": "/static/media/trivianight.db8511faad397901a96b.png",
     "static/media/kristine_sp24.jpg": "/static/media/kristine_sp24.7051acc3fb7fb5fefd45.jpg",
-    "static/media/jamesan_sp24.jpg": "/static/media/jamesan_sp24.6dd62a2a152668295a84.jpg",
     "static/media/wayne_sp24.jpg": "/static/media/wayne_sp24.ac2a6115ec7526703d48.jpg",
     "static/media/easucafe.png": "/static/media/easucafe.209469a7a5613db77a4b.png",
     "static/media/nextravaganza.png": "/static/media/nextravaganza.4db8b39b42c744c2a552.png",
@@ -65,11 +63,11 @@
     "static/media/씹덕.png": "/static/media/씹덕.5f7e5afb39c248ae3dad.png",
     "index.html": "/index.html",
     "main.19e7375a.css.map": "/static/css/main.19e7375a.css.map",
-    "main.1cd601ae.js.map": "/static/js/main.1cd601ae.js.map",
-    "787.d5fa4d18.chunk.js.map": "/static/js/787.d5fa4d18.chunk.js.map"
+    "main.bc549f6c.js.map": "/static/js/main.bc549f6c.js.map",
+    "453.258b012d.chunk.js.map": "/static/js/453.258b012d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.19e7375a.css",
-    "static/js/main.1cd601ae.js"
+    "static/js/main.bc549f6c.js"
   ]
 }

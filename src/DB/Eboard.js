@@ -58,7 +58,7 @@ let Eboard = [
     {
       name: "Tiffany Kim",
       position: "Design Chair",
-      major: "2nd-year Animal Science, Minor in Psychology",
+      major: "2nd-year Animal Science/Psychology",
       picture: require("../sources/Tiffany_sp25.jpg"),
       insta: "tiffanykim6"
     }

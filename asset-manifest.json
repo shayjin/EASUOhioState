@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.19e7375a.css",
-    "main.js": "/static/js/main.594ee4fc.js",
+    "main.js": "/static/js/main.1cd601ae.js",
     "static/js/787.d5fa4d18.chunk.js": "/static/js/787.d5fa4d18.chunk.js",
     "static/media/alicia_sp24.JPG": "/static/media/alicia_sp24.6fa2bd26ed8ea9bdd4e0.JPG",
     "static/media/invfair.png": "/static/media/invfair.6a92735901a85c8dea76.png",
@@ -65,11 +65,11 @@
     "static/media/씹덕.png": "/static/media/씹덕.5f7e5afb39c248ae3dad.png",
     "index.html": "/index.html",
     "main.19e7375a.css.map": "/static/css/main.19e7375a.css.map",
-    "main.594ee4fc.js.map": "/static/js/main.594ee4fc.js.map",
+    "main.1cd601ae.js.map": "/static/js/main.1cd601ae.js.map",
     "787.d5fa4d18.chunk.js.map": "/static/js/787.d5fa4d18.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.19e7375a.css",
-    "static/js/main.594ee4fc.js"
+    "static/js/main.1cd601ae.js"
   ]
 }

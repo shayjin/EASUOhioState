@@ -53,6 +53,14 @@ let Eboard = [
       major: "3rd-year Computer Science",
       picture: require("../sources/yuting_sp24_2.jpg"),
       insta: "yutingche0805"
+    }, 
+
+    {
+      name: "Tiffany Kim",
+      position: "Design Chair",
+      major: "2nd-year Animal Science, Minor in Psychology",
+      picture: require("../sources/Tiffany_sp25.jpg"),
+      insta: "tiffanykim6"
     }
 ];
 
